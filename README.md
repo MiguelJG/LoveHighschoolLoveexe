@@ -1,6 +1,6 @@
 # LoveHighschoolLoveexe
 
-##Minijuego Para el concurso de videojuegos del Congreso de estudiantes de ingeniería informatica de la Universidad de la laguna
+## Minijuego Para el concurso de videojuegos del Congreso de estudiantes de ingeniería informatica de la Universidad de la laguna
 
 *Hecho por:*
 *Miguel Jiménez Gomis
