@@ -16,11 +16,63 @@ public class main : MonoBehaviour {
             c.text = "Si, ando un poco perdido";
         }
     }
+
+    public class Ensamblador
+    {
+        int love;
+        //DAY 1
+        public void actualizar_dia1(Text texto, Text a, Text b, Text c)
+        {
+            texto.text = "Aun no es la hora de Educacion Fisica, ¿que haces en la cancha?";
+            a.text = "Dar una vuelta, la clase me aburria, ni changeles.";
+            b.text = "Te podria preguntar lo mismo, ni changeles.";
+            c.text = "Sali al baño y me perdi, ni changeles.";
+
+        }
+        public void actualizar_dia11(Text texto, Text a, Text b, Text c)
+        {
+            texto.text = "Bueno, ya que estas aqui, ¿Por que no jugamos un rato?";
+            a.text = "Por que no.";
+            b.text = "¿Estas seguro? Pertenezco a la generacion de los milagros";
+            c.text = "Yo soy mas de estar en mi casa jugando a otomes";
+
+        }
+
+        public void actualizar_dia111(Text texto, Text a, Text b, Text c)
+        {
+            texto.text = "No tienes muchas ganas de jugar";
+            a.text = "No estoy muy animado";
+            b.text = "Es que no me apetece jugar contigo";
+            c.text = "No se jugar";
+
+        }
+
+        public void actualizar_dia112(Text texto, Text a, Text b, Text c)
+        {
+            texto.text = "Vaya chuleria llevas encima, vamos a ver si lo demuestras";
+            a.text = "Despues no digas que no te lo adverti";
+            b.text = "Primero debemos calentarnos";
+            c.text = "Here we go!";
+
+        }
+
+        public void actualizar_dia113(Text texto, Text a, Text b, Text c)
+        {
+            texto.text = "Que aburrido eres, ¿nunca haces deporte?";
+            a.text = "Nop";
+            b.text = "Aveces, cuando me dicen mis amigos de jugar";
+            c.text = "Voy al gimnsaio para mantenerme";
+
+        }
+    }
+    
     public GameObject Fondo;
     Image myimagecomponent;
     public Sprite habitacion;
     public Sprite clase;
     public Sprite intro;
+    public Sprite gimnasio;
+    public Sprite ensamblador;
     public GameObject habitacion1;
     public GameObject habitacion2;
     public GameObject habitacion3;
@@ -42,6 +94,9 @@ public class main : MonoBehaviour {
     public int seleccion = 4;//variable para marcar la seleccion hecha
     GameObject[] habitaciones;
     GameObject[] opciones;
+    int loli = 0; //Que loli es escogida para este dia
+    int momento = 1; //En qe momento del dia nos encontramos, hay 5 momentos por dia
+    int Booton = 0; //Que boton se ha pulsado
     int daycounter = 0; //CONTADOR DEL DIA QUE ES
     
     private void mostrarbotonesmenu() {
@@ -98,6 +153,71 @@ public class main : MonoBehaviour {
         Daybox.active = true;
     }
 
+    public void Boton1()
+    {
+        Booton = 1;
+        switch (loli)
+        {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                cancha();
+                break;
+        }
+        momento++;
+    }
+    public void Boton2()
+    {
+        Booton = 2;
+        switch (loli)
+        {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                cancha();
+                break;
+        }
+        momento++;
+    }
+
+    public void Boton3()
+    {
+        Booton = 3;
+        switch (loli)
+        {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                cancha();
+                break;
+        }
+        momento++;
+    }
+
     public void cpp() {
         ocultarbotonesmenu();
         mostraropciones();
@@ -123,9 +243,37 @@ public class main : MonoBehaviour {
         }
     }
     public void cancha() {
+        loli = 6;
+        Image imageensambador;
+        Ensamblador waifu = new Ensamblador();
+        ocultarbotonesmenu();
+        mostraropciones();
+        myimagecomponent = Fondo.GetComponent<Image>();
+        myimagecomponent.sprite = gimnasio;
+        textbox.active = true;
+        chica.active = true;
+        imageensambador = chica.GetComponent<Image>();
+        imageensambador.sprite = ensamblador;
         switch (daycounter)
         {
             case 1:
+                switch (momento)
+                {
+                    case 1:
+                        waifu.actualizar_dia1(textb, op1, op2, op3);
+                        break;
+                    case 2:
+                        waifu.actualizar_dia11(textb, op1, op2, op3);
+                        break;
+                    case 3:
+                        if (Booton == 1)
+                            waifu.actualizar_dia111(textb, op1, op2, op3);
+                        else if (Booton == 2)
+                            waifu.actualizar_dia112(textb, op1, op2, op3);
+                        else if (Booton == 3)
+                            waifu.actualizar_dia113(textb, op1, op2, op3);
+                        break;
+                }
                 break;
             case 2:
                 break;
