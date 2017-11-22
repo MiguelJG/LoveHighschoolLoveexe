@@ -20,6 +20,7 @@ public class main : MonoBehaviour {
     public class Ensamblador
     {
         int love;
+        int veces_visitado;
         //DAY 1
         public void actualizar_dia1(Text texto, Text a, Text b, Text c)
         {
@@ -133,6 +134,11 @@ public class main : MonoBehaviour {
         }
 
     }
+
+    public class Python
+    {
+
+    }
     
     public GameObject Fondo;
     Image myimagecomponent;
@@ -141,6 +147,8 @@ public class main : MonoBehaviour {
     public Sprite intro;
     public Sprite gimnasio;
     public Sprite ensamblador;
+    public Sprite python;
+    public Sprite entrada;
     public GameObject habitacion1;
     public GameObject habitacion2;
     public GameObject habitacion3;
@@ -167,7 +175,10 @@ public class main : MonoBehaviour {
     int Booton = 0; //Que boton se ha pulsado
     int OldBooton = 0;
     int daycounter = 0; //CONTADOR DEL DIA QUE ES
-    
+    Ensamblador waifu6 = new Ensamblador();
+    C waifu1 = new C();
+
+
     private void mostrarbotonesmenu() {
         foreach (GameObject a in habitaciones)
         {
@@ -209,7 +220,10 @@ public class main : MonoBehaviour {
         textbox.active = false;
         Daybox.active = false;
         chica.active = false;
-}
+       
+
+
+    }
     void Update () {}
 
     public void inicio () {
@@ -218,8 +232,10 @@ public class main : MonoBehaviour {
         myimagecomponent.sprite = habitacion;
         mainbutton.active = false;
         mostrarbotonesmenu();
+        ocultaropciones();
         textbox.active = false;
         Daybox.active = true;
+        chica.active = false;
     }
 
     public void Boton1()
@@ -298,10 +314,9 @@ public class main : MonoBehaviour {
         myimagecomponent.sprite = clase;
         textbox.active = true;
         chica.active = true;
-        C waifu = new C();
         switch (daycounter) {
             case 1:
-                waifu.actualizar_dia1(textb,op1,op2,op3);
+                waifu1.actualizar_dia1(textb,op1,op2,op3);
                 break;
             case 2:
                 break;
@@ -315,63 +330,65 @@ public class main : MonoBehaviour {
                 break;
         }
     }
+
+    
+
     public void cancha() {
         loli = 6;
-        Image imageensambador;
-        Ensamblador waifu = new Ensamblador();
+        Image image;
         ocultarbotonesmenu();
         mostraropciones();
         myimagecomponent = Fondo.GetComponent<Image>();
         myimagecomponent.sprite = gimnasio;
         textbox.active = true;
         chica.active = true;
-        imageensambador = chica.GetComponent<Image>();
-        imageensambador.sprite = ensamblador;
+        image = chica.GetComponent<Image>();
+        image.sprite = ensamblador;
         switch (daycounter)
         {
             case 1:
                 switch (momento)
                 {
                     case 1:
-                        waifu.actualizar_dia1(textb, op1, op2, op3);
+                        waifu6.actualizar_dia1(textb, op1, op2, op3);
                         break;
                     case 2:
-                        waifu.actualizar_dia11(textb, op1, op2, op3);
+                        waifu6.actualizar_dia11(textb, op1, op2, op3);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu.actualizar_dia111(textb, op1, op2, op3);
+                            waifu6.actualizar_dia111(textb, op1, op2, op3);
                         else if (Booton == 2)
-                            waifu.actualizar_dia112(textb, op1, op2, op3);
+                            waifu6.actualizar_dia112(textb, op1, op2, op3);
                         else if (Booton == 3)
-                            waifu.actualizar_dia113(textb, op1, op2, op3);
+                            waifu6.actualizar_dia113(textb, op1, op2, op3);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if(Booton == 1)
-                                    waifu.actualizar_dia1111(textb, op1, op2, op3);
+                                    waifu6.actualizar_dia1111(textb, op1, op2, op3);
                                 else if(Booton == 2)
-                                    waifu.actualizar_dia1112(textb, op1, op2, op3);
+                                    waifu6.actualizar_dia1112(textb, op1, op2, op3);
                                 else if(Booton == 3)
-                                    waifu.actualizar_dia1113(textb, op1, op2, op3);
+                                    waifu6.actualizar_dia1113(textb, op1, op2, op3);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu.actualizar_dia1121(textb, op1, op2, op3);
+                                    waifu6.actualizar_dia1121(textb, op1, op2, op3);
                                 else if (Booton == 2)
-                                    waifu.actualizar_dia1122(textb, op1, op2, op3);
+                                    waifu6.actualizar_dia1122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu.actualizar_dia1121(textb, op1, op2, op3);
+                                    waifu6.actualizar_dia1121(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu.actualizar_dia1131(textb, op1, op2, op3);
+                                    waifu6.actualizar_dia1131(textb, op1, op2, op3);
                                 else if (Booton == 2)
-                                    waifu.actualizar_dia1132(textb, op1, op2, op3);
+                                    waifu6.actualizar_dia1132(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu.actualizar_dia1133(textb, op1, op2, op3);
+                                    waifu6.actualizar_dia1133(textb, op1, op2, op3);
                                 break;
                         }
                         break;
@@ -387,6 +404,13 @@ public class main : MonoBehaviour {
                 break;
             case 6:
                 break;
+        }
+        if(momento > 4)
+        {
+            momento = 0;
+            OldBooton = 0;
+            Booton = 0;
+            inicio();
         }
     }
 
@@ -427,8 +451,18 @@ public class main : MonoBehaviour {
         }
     }
 
-    public void Entrada()
+    public void Azotea()
     {
+        loli = 5;
+        Image image;
+        ocultarbotonesmenu();
+        mostraropciones();
+        myimagecomponent = Fondo.GetComponent<Image>();
+        myimagecomponent.sprite = entrada;
+        textbox.active = true;
+        chica.active = true;
+        image = chica.GetComponent<Image>();
+        image.sprite = python;
         switch (daycounter)
         {
             case 1:
