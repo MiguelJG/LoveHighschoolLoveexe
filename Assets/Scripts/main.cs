@@ -4402,7 +4402,7 @@ public class main : MonoBehaviour {
     Java waifu4 = new Java();
     Python waifu5 = new Python();
     Ensamblador waifu6 = new Ensamblador();
-    private void actualizarcorazones() {
+	private void actualizarcorazones() {//para marcar la opcion correcta que te aumenta hacer cor1++; para la instawin cor1 + 6
         corazon1.text = cor1.ToString();
         corazon2.text = cor2.ToString();
         corazon3.text = cor3.ToString();
