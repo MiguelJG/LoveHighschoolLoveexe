@@ -21,8 +21,3 @@ Platform assembly: C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHig
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 2.962789 ms
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1f48 -> priority: 1 
-  Thread -> id: 25c8 -> priority: 1 
