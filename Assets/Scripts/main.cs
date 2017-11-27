@@ -4377,6 +4377,14 @@ public class main : MonoBehaviour {
     public GameObject textbox;
     public Text textb;
     public GameObject Daybox;
+    public GameObject Corazones;
+    public Text corazon1;
+    public Text corazon2;
+    public Text corazon3;
+    public Text corazon4;
+    public Text corazon5;
+    public Text corazon6;
+    int cor1 = 0;int cor2= 0;int cor3= 0;int cor4= 0;int cor5= 0;int cor6 = 0;
     public GameObject chica;
     public Text contadordiastext;
     public int seleccion = 4;//variable para marcar la seleccion hecha
@@ -4394,12 +4402,22 @@ public class main : MonoBehaviour {
     Java waifu4 = new Java();
     Python waifu5 = new Python();
     Ensamblador waifu6 = new Ensamblador();
-
+    private void actualizarcorazones() {
+        corazon1.text = cor1.ToString();
+        corazon2.text = cor2.ToString();
+        corazon3.text = cor3.ToString();
+        corazon4.text = cor4.ToString();
+        corazon5.text = cor5.ToString();
+        corazon6.text = cor6.ToString();
+    }
     private void mostrarbotonesmenu() {
         foreach (GameObject a in habitaciones)
         {
             a.active = true;
         }
+        actualizarcorazones();
+        Corazones.active = true;
+
     }
     private void ocultarbotonesmenu()
     {
@@ -4407,6 +4425,7 @@ public class main : MonoBehaviour {
         {
             a.active = false;
         }
+        Corazones.active = false;
     }
     private void ocultaropciones()
     {
