@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class main : MonoBehaviour {
     public class C
@@ -4460,6 +4461,9 @@ public class main : MonoBehaviour {
 
     public void inicio () {
         daycounter++;
+		if (daycounter > 6) {
+			SceneManager.LoadScene("Créditos");
+		}
         contadordiastext.text = daycounter.ToString();
         myimagecomponent.sprite = habitacion;
         mainbutton.active = false;
