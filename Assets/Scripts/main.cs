@@ -4559,6 +4559,7 @@ public class main : MonoBehaviour {
 
     public void cpp()
     {
+
         loli = 1;
         Image image;
         ocultarbotonesmenu();
@@ -4569,6 +4570,7 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = ce;
+        image.rectTransform.sizeDelta = new Vector2(100,100);
 
 
         switch (daycounter) {
@@ -4882,6 +4884,8 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = php;
+        image.rectTransform.sizeDelta = new Vector2(100, 100);
+
         switch (daycounter)
         {
             case 1:
@@ -5194,6 +5198,8 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = cepp;
+        image.rectTransform.sizeDelta = new Vector2(100, 100);
+
         switch (daycounter)
         {
             case 1:
@@ -5506,6 +5512,8 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = java;
+        image.rectTransform.sizeDelta = new Vector2(100, 100);
+
         switch (daycounter)
         {
             case 1:
@@ -5818,6 +5826,7 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = python;
+
         switch (daycounter)
         {
             case 1:
@@ -6130,6 +6139,8 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = ensamblador;
+        image.rectTransform.sizeDelta = new Vector2(100, 100);
+
         switch (daycounter)
         {
             case 1:
