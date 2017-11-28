@@ -4455,9 +4455,6 @@ public class main : MonoBehaviour {
         textbox.active = false;
         Daybox.active = false;
         chica.active = false;
-       
-
-
     }
     void Update () {}
 
