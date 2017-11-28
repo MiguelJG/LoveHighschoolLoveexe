@@ -2178,113 +2178,113 @@ public class main : MonoBehaviour {
         //DAY 1
         public void actualizar_dia1(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "Aun no es la hora de Educacion Fisica, ¿que haces en la cancha?";
-            a.text = "Dar una vuelta, la clase me aburria, ni changeles.";
-            b.text = "Te podria preguntar lo mismo, ni changeles.";
-            c.text = "Sali al baño y me perdi, ni changeles.";
+            texto.text = "Buenas tardes. ¿Que le puedo servir?";
+            a.text = "Que sitio mas raro";
+            b.text = "Que rapido me atienden aqui";
+            c.text = "...";
 
         }
         public void actualizar_dia11(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "Bueno, ya que estas aqui, ¿Por que no jugamos un rato?";
-            a.text = "Por que no.";
-            b.text = "¿Estas seguro? Pertenezco a la generacion de los milagros.";
-            c.text = "Yo soy mas de estar en mi casa jugando a otomes.";
+            texto.text = "Espera, yo te conozco… Estamos en la misma clase, ¿Verdad?";
+            a.text = "No me suenas";
+            b.text = "No lo creo, no salgo mucho de mi habitación";
+            c.text = "Puede ser";
 
         }
 
         public void actualizar_dia111(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "No tienes muchas ganas de jugar";
-            a.text = "No estoy muy animado.";
-            b.text = "Es que no me apetece jugar contigo.";
-            c.text = "No se jugar.";
+            texto.text = "Por tu uniforme diría que estamos en la misma escuela. Siempre alegra ver gente nueva, aunque ya te digo que me suenas mucho. Me habré confundido, juraría que te he visto en otra parte. En fin, perdona mis modales… !Bienvenido a la cafetería Oracle! ¿Qué te puedo servir?";
+            a.text = "Ponme un café de Java";
+            b.text = "Cualquiera me sirve";
+            c.text = "¿Que me recomiendas?";
 
         }
 
         public void actualizar_dia112(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "Vaya chuleria llevas encima, vamos a ver si lo demuestras";
-            a.text = "Despues no digas que no te lo adverti.";
-            b.text = "Primero debemos calentarnos.";
-            c.text = "Here we go!";
+            texto.text = "No pasa nada, yo tambien me suelo quedar mucho tiempo frente a la pantalla. Sobretodo las noches en las que me quedo programando hasta tarde. Es horrible cuando estás atascado en alguna parte del codigo.";
+            a.text = "¿Por casualidad frecuentas StackOverflow?";
+            b.text = "A veces me pasa, aunque prefiero consultarlo con la almohada";
+            c.text = "¿Puedes tomar nota ya? Tengo prisa. Ponme un café";
 
         }
 
         public void actualizar_dia113(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "Que aburrido eres, ¿nunca haces deporte?";
-            a.text = "Nop.";
-            b.text = "Aveces, cuando me dicen mis amigos de jugar.";
-            c.text = "Voy al gimnsaio para mantenerme.";
+            texto.text = "Bueno, eso depende, puedes revisar la carta y te doy mas tiempo si quieres. Aunque algo rápido sería un cafe.";
+            a.text = "Vale";
+            b.text = "no te preocupes, ponme un cafe de Java";
+            c.text = "No me di cuenta de la hora que es, lo siento, me tengo que ir";
 
         }
 
         public void actualizar_dia1111(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "¿Y eso por que? ¿No te encuentras bien?";
-            a.text = "No mucho, me duele la cabeza.";
-            b.text = "Ultimamente no estoy animado con nada.";
-            c.text = "Simplemente no me apetece.";
+            texto.text = "Vaya, ese es mi café favorito, lo llevo tomando casi desde que nací. Se ve que mi padre y sus amigos eran unos adictos a él en el trabajo.  Me has caido bien, este lo paga la casa :)";
+            a.text = "Cuanta amabilidad";
+            b.text = "Oh, no me lo esperaba";
+            c.text = "No es mi cumpleaños, ¿verdad?";
 
         }
 
         public void actualizar_dia1112(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "Eres un borde, no me apetece hablar mas contigo";
-            a.text = "...";
-            b.text = "...";
-            c.text = "...";
+            texto.text = "marchando, pero luego no te quejes si no es de tu agrado";
+            a.text = "Ok";
+            b.text = "Mmmm,.. Quizás fui demasiado borde";
+            c.text = "No pienso volver a esta cafetería";
 
         }
 
         public void actualizar_dia1113(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "No te preocupes, yo te puedo enseñar";
-            a.text = "Mejor no, ahora mismo me siento mal";
-            b.text = "Venga va";
-            c.text = "Se amable conmigo sempai!";
+            texto.text = "Bueno, pues no vuelvas por aqui";
+            a.text = "Eso haré";
+            b.text = "Ya te vale";
+            c.text = "Super amable la camarera";
 
         }
 
         public void actualizar_dia1121(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "Vaya, menudo partido. No me lo has puesto nada facil. Pero todo el mundo sabe que soy dificil de dominar";
-            a.text = "Un placer jugar contigo.";
-            b.text = "Tu dame tiempo y te acabaras arrodillando antes mi";
-            c.text = "Por eso mismo nadie te quiere, eres un duro.";
+            texto.text = "Pues claro! a veces es muy útil, Aunque hay veces en las que no entiendo nada… ¡Pero lo importante es que funciona! Veo que me entiendes, acabo mi turno en 10 minutos, te invito a un cafe...";
+            a.text = "Perfecto";
+            b.text = "Mejor no, gracias";
+            c.text = "Esto no me lo esperaba";
         }
 
         public void actualizar_dia1122(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "¿Es eso una proposicion indicente?";
-            a.text = "Sera lo que tu quieras que sea <3";
-            b.text = "¿Como va a ser nada? No quiero lesionarme";
-            c.text = "Puede...";
+            texto.text = "Jajaja, me pasa lo mismo, pero otras veces el error está en un simple punto y coma que se te escapa";
+            a.text = "No serás tu la mejor programadora del mundo, ¿no?";
+            b.text = "Lo que hay que escuchar";
+            c.text = "Si utilizaras un IDE eso no te pasaría";
         }
 
         public void actualizar_dia1131(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "¿Y por que no?";
-            a.text = "No me gusta sudar.";
-            b.text = "Por que me gusta mas ejercitar el cerebro.";
-            c.text = "Pues por pereza sin mas";
+            texto.text = "Avísame si necesitas algo, estaré por aqui";
+            a.text = "Estupendo";
+            b.text = "Vale pero no te vayas muy lejos";
+            c.text = "No me convence la carta";
         }
 
         public void actualizar_dia1132(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "Pues propon tu el ir a jugar";
-            a.text = "Deberia hacer eso";
-            b.text = "Vivo lejos y no tengo medio de transporte";
-            c.text = "Todos estamos muy ocupados";
+            texto.text = "Vaya, ese es mi café favorito, lo llevo tomando casi desde que nací. Se ve que mi padre y sus amigos eran unos adictos a él en el trabajo.  Me has caido bien, este lo paga la casa :)";
+            a.text = "Cuanta amabilidad";
+            b.text = "Oh, no me lo esperaba";
+            c.text = "No es mi cumpleaños, ¿verdad?";
         }
 
         public void actualizar_dia1133(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "Como debe ser";
-            a.text = "Todos deberian hacer lo mismo";
-            b.text = "Estoy mal de la espalda y debo mantenerme";
-            c.text = "Por cada vez que un codigo no compila hago 5 dominadas"; //Cambiarlo, no me convence
+            texto.text = "no pasa nada, ¡vuelve pronto!";
+            a.text = "Me lo pensaré";
+            b.text = "Si si, volveré, no te preocupes";
+            c.text = "Chacho, que pesada loco"; //Cambiarlo, no me convence
         }
 
         //DIA 2
