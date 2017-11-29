@@ -2291,27 +2291,27 @@ public class main : MonoBehaviour {
 
         public void actualizar_dia2(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2";
-            a.text = "2.1";
-            b.text = "2.1";
-            c.text = "2.1";
+            texto.text = "Buenos días ¿Que le puedo servir?";
+            a.text = "(Quedarse callado)";
+            b.text = "Buenos días";
+            c.text = "Observar la mesa de al lado";
 
         }
         public void actualizar_dia21(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.1";
-            a.text = "2.11";
-            b.text = "2.12";
-            c.text = "2.13";
+            texto.text = "Un momento ¿Usted no estuvo ayer aquí?";
+            a.text = "Vengo por el famoso café";
+            b.text = "¿Me toma nota? Por favor";
+            c.text = "Realmente no sé que hago aquí ";
 
         }
 
         public void actualizar_dia211(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.11";
-            a.text = "2.111";
-            b.text = "2.112";
-            c.text = "2.113";
+            texto.text = "No me sorprende, Java es una maravilla para el paladar y lo servimos de una manera muy especial";
+            a.text = "Lo es, realmente me llama mucho la atención. ¿Me podrías decir el secreto?";
+            b.text = "A ver, está bien, pero tampoco es una maravilla";
+            c.text = "Cuanta modestia";
 
         }
 
@@ -2335,19 +2335,19 @@ public class main : MonoBehaviour {
 
         public void actualizar_dia2111(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.111";
-            a.text = "2.1111";
-            b.text = "2.1112";
-            c.text = "2.1113";
+            texto.text = "Ni de broma. Es un secreto que solo mi familia conoce y no lo voy a revelar así por las buenas ";
+            a.text = "Como quieras";
+            b.text = "Ni que fuese la receta de la cocacola";
+            c.text = "Pues me voy";
 
         }
 
         public void actualizar_dia2112(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.112";
-            a.text = "2.1121";
-            b.text = "2.1122";
-            c.text = "2.1123";
+            texto.text = "¿Cómo dices?";
+            a.text = "Lo que oyes";
+            b.text = "He probado elixires mejores";
+            c.text = "No te ofendas";
 
         }
 
