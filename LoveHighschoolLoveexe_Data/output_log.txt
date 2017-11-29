@@ -17,13 +17,19 @@ Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHig
 Loading C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.289 seconds
+- Completed reload, in  0.315 seconds
 Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 3286x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.423593 ms
+UnloadTime: 1.868760 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.708205 ms
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 275.
+Total: 2.154847 ms (FindLiveObjects: 0.039342 ms CreateObjectMapping: 0.026940 ms MarkObjects: 0.232632 ms  DeleteObjects: 1.854648 ms)
+
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 10e0 -> priority: 1 
+  Thread -> id: 16fc -> priority: 1 

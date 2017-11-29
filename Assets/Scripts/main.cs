@@ -4362,6 +4362,10 @@ public class main : MonoBehaviour {
     //Cpp
     public Sprite cepp;
     public Sprite pasilo;
+	public Sprite InLove;
+	public Text Final;
+	public GameObject Final_;
+	public GameObject botonfinal;
     public GameObject habitacion1;
     public GameObject habitacion2;
     public GameObject habitacion3;
@@ -4453,25 +4457,60 @@ public class main : MonoBehaviour {
         opciones = dummy2;
         ocultarbotonesmenu();
         ocultaropciones();
+		Final_.active = false;
+		botonfinal.active = false;
         textbox.active = false;
         Daybox.active = false;
         chica.active = false;
     }
     void Update () {}
+	public void buttonfinal(){
+		SceneManager.LoadScene ("Créditos");
+	}
 
     public void inicio () {
         daycounter++;
 		if (daycounter > 6) {
-			SceneManager.LoadScene("Créditos");
+			chica.active = false;
+			ocultaropciones ();
+			textbox.active = false;
+			myimagecomponent.sprite = InLove;
+			botonfinal.active = true;
+			string dummy = "";
+			if (cor1 > 4) {
+				dummy += " C++, ";
+			}
+			if (cor2 > 4) {
+				dummy += " PHP, ";
+			}
+			if (cor3 > 4) {
+				dummy += " C, ";
+			}
+			if (cor4 > 4) {
+				dummy += " Java, ";
+			}
+			if (cor5 > 4) {
+				dummy += " Python, ";
+			}
+			if (cor6 > 4) {
+				dummy += " Ensamblador ";
+			}
+			if (dummy == "") {
+				dummy = "Nadie ";
+			}
+			Final.text = dummy + " se han enamorado de ti.";
+			Final_.active = true;
+
+		} else {
+			contadordiastext.text = daycounter.ToString ();
+			myimagecomponent.sprite = habitacion;
+			mainbutton.active = false;
+			mostrarbotonesmenu ();
+			ocultaropciones ();
+			textbox.active = false;
+			Daybox.active = true;
+			chica.active = false;
 		}
-        contadordiastext.text = daycounter.ToString();
-        myimagecomponent.sprite = habitacion;
-        mainbutton.active = false;
-        mostrarbotonesmenu();
-        ocultaropciones();
-        textbox.active = false;
-        Daybox.active = true;
-        chica.active = false;
     }
 
     public void Boton1()
@@ -4571,7 +4610,7 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = ce;
-        image.rectTransform.sizeDelta = new Vector2(100,100);
+        image.rectTransform.sizeDelta = new Vector2(490,685);
 
 
         switch (daycounter) {
@@ -4885,7 +4924,7 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = php;
-        image.rectTransform.sizeDelta = new Vector2(100, 100);
+        image.rectTransform.sizeDelta = new Vector2(300, 600);
 
         switch (daycounter)
         {
@@ -5199,7 +5238,7 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = cepp;
-        image.rectTransform.sizeDelta = new Vector2(100, 100);
+        image.rectTransform.sizeDelta = new Vector2(300, 685);
 
         switch (daycounter)
         {
@@ -5513,7 +5552,7 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = java;
-        image.rectTransform.sizeDelta = new Vector2(100, 100);
+        image.rectTransform.sizeDelta = new Vector2(300, 685);
 
         switch (daycounter)
         {
@@ -5827,6 +5866,7 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = python;
+		image.rectTransform.sizeDelta = new Vector2(350, 685);
 
         switch (daycounter)
         {
@@ -6140,7 +6180,7 @@ public class main : MonoBehaviour {
         chica.active = true;
         image = chica.GetComponent<Image>();
         image.sprite = ensamblador;
-        image.rectTransform.sizeDelta = new Vector2(100, 100);
+        image.rectTransform.sizeDelta = new Vector2(1100, 1000);
 
         switch (daycounter)
         {
