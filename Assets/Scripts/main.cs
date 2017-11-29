@@ -2317,19 +2317,19 @@ public class main : MonoBehaviour {
 
         public void actualizar_dia212(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.12";
-            a.text = "2.121";
-            b.text = "2.122";
-            c.text = "2.123";
+            texto.text = "Vale vale, ¿Que te apetece tomar?";
+            a.text = "Ponme un barraquito ";
+            b.text = "Un sanwich mixto";
+            c.text = "No me convence la carta";
 
         }
 
         public void actualizar_dia213(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.13";
-            a.text = "2.131";
-            b.text = "2.132";
-            c.text = "2.133";
+            texto.text = "En el fondo sé que estás aquí por nuestro increíble café de Java";
+            a.text = "Ponme uno de esos entonces";
+            b.text = "No sé, no me terminas de convencer";
+            c.text = "En realidad es porque me queda al lado de las clases";
 
         }
 
@@ -2353,422 +2353,422 @@ public class main : MonoBehaviour {
 
         public void actualizar_dia2113(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.113";
-            a.text = "2.1131";
-            b.text = "2.1132";
-            c.text = "2.1133";
+            texto.text = "Siempre digo lo mismo pero Java es el café favorito de mi padre. Lo solía tomar con sus amigos en el trabajo";
+            a.text = "Interesante";
+            b.text = "¿En serio? ¡Que guay!";
+            c.text = "Tampoco me cuentes tu vida";
 
         }
 
         public void actualizar_dia2121(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.121";
-            a.text = "2.1211";
-            b.text = "2.1212";
-            c.text = "2.1213";
+            texto.text = "¿Un barraquito? ¿Que es eso? Yo te recomendaría un café de Java, es más rápido";
+            a.text = "Me fio de tus gustos, sírveme uno";
+            b.text = "Me gusta mas el barraquito";
+            c.text = "No me vendas la moto";
         }
 
         public void actualizar_dia2122(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.122";
-            a.text = "2.1221";
-            b.text = "2.1222";
-            c.text = "2.1223";
+            texto.text = "Y… ¿No lo quieres acompañar con un café de Java?";
+            a.text = "Eso estaría genial";
+            b.text = "No, gracias";
+            c.text = "Parece que Java y tu son uno";
         }
 
         public void actualizar_dia2123(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.123";
-            a.text = "2.1231";
-            b.text = "2.1232";
-            c.text = "2.1233";
+            texto.text = "Te dejo más tiempo para decidir";
+            a.text = "Perfecto";
+            b.text = "(Seguir ojeando la carta)";
+            c.text = "Tu verás lo que haces";
         }
 
         public void actualizar_dia2131(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.131";
-            a.text = "2.1311";
-            b.text = "2.1312";
-            c.text = "2.1313";
+            texto.text = "¡Marchando! No te arrepentirás, vas a probar el mejor café del mundo";
+            a.text = "Pones las expectativas muy altas";
+            b.text = "Como para que no me guste";
+            c.text = "Que ganas de probarlo";
         }
 
         public void actualizar_dia2132(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.132";
-            a.text = "2.1321";
-            b.text = "2.1322";
-            c.text = "2.1323";
+            texto.text = "Entonces deberías probarlo. Juro que no te arrepentirás";
+            a.text = "Como no me guste lo pagas tu";
+            b.text = "Es difícil que no me guste con ese nombre";
+            c.text = "Paso";
         }
 
         public void actualizar_dia2133(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "2.133";
-            a.text = "2.1331";
-            b.text = "2.1332";
-            c.text = "2.1333";
+            texto.text = "Jo, eres peor que un segmentation fault";
+            a.text = "Me lo suelen decir";
+            b.text = "Es lo que hay";
+            c.text = "(Sonreir)";
         }
 
         //DIA3
 
         public void actualizar_dia3(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3";
-            a.text = "3.1";
-            b.text = "3.1";
-            c.text = "3.1";
+            texto.text = "Buenos días. Bienvenido a la cafetería Oracle";
+            a.text = "Bonito nombre";
+            b.text = "...Mejor me siento";
+            c.text = "Espero que por eso me pongas una buena taza de cafe";
 
         }
         public void actualizar_dia31(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.1";
-            a.text = "3.11";
-            b.text = "3.12";
-            c.text = "3.13";
+            texto.text = "Hoy es nuestro visitante Nº100, le vamos a dejar elegir cualquier cosa de la carta de forma totalmente gratuita";
+            a.text = "¿Que me estas comentando?";
+            b.text = "Esto es mejor que compilar a la primera";
+            c.text = "¿De qué me sonará esto?...";
 
         }
 
         public void actualizar_dia311(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.11";
-            a.text = "3.111";
-            b.text = "3.112";
-            c.text = "3.113";
+            texto.text = "Si si, lo que escuchas. Además es la primera vez que hacemos algo así, espero que la carta sea de tu agrado ";
+            a.text = "Ponme de todo";
+            b.text = "Ponme un Cafe de Java";
+            c.text = "Esto me huele mal, no quiero nada, me voy";
 
         }
 
         public void actualizar_dia312(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.12";
-            a.text = "3.121";
-            b.text = "3.122";
-            c.text = "3.123";
+            texto.text = "Eso son pequeños placeres de la vida reservados a unos pocos afortunados. Entonces ¿Que te sirvo?";
+            a.text = "Ponme un cafe de Java";
+            b.text = "Ponme de todo";
+            c.text = "Ponme un barraquito";
 
         }
 
         public void actualizar_dia313(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.13";
-            a.text = "3.131";
-            b.text = "3.132";
-            c.text = "3.133";
+            texto.text = "Es algo similar a los anuncios de internet, pero con la diferencia de que aquí no te ponemos keylogers ni programas basura y somos más confiables";
+            a.text = "Se ve que entiendes mucho del tema";
+            b.text = "Bueno, de algo hay que morir, ponme toda la carta";
+            c.text = "Ambas cosas me dan poca confianza";
 
         }
 
         public void actualizar_dia3111(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.111";
-            a.text = "3.1111";
-            b.text = "3.1112";
-            c.text = "3.1113";
+            texto.text = "Espera espera, la carta es muy grande, no creo que puedas con todo.";
+            a.text = "¿Que no? Madre mía te digo yo a ti que si";
+            b.text = "Subestimas mi poder";
+            c.text = "Soy un pozo sin fondo";
 
         }
 
         public void actualizar_dia3112(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.112";
-            a.text = "3.1121";
-            b.text = "3.1122";
-            c.text = "3.1123";
+            texto.text = "¿En serio? puedes elegir cualquier cosa. El café de Java es una maravilla, pero tienes la posibilidad de pedir cualquier otra cosa";
+            a.text = "Que no, ahora me pones toda la carta";
+            b.text = "Venga vale, por ser tu te dejo que me sirvas lo que quieras";
+            c.text = "Tengo hambre";
 
         }
 
         public void actualizar_dia3113(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.113";
-            a.text = "3.1131";
-            b.text = "3.1132";
-            c.text = "3.1133";
+            texto.text = "Vaya, se ve que la estrategia no ha funcionado muy bien...";
+            a.text = "Pues no, la verdad";
+            b.text = "No te preocupes, sigue intentándolo";
+            c.text = "Quien la sigue la consigue";
 
         }
 
         public void actualizar_dia3121(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.121";
-            a.text = "3.1211";
-            b.text = "3.1212";
-            c.text = "3.1213";
+            texto.text = "Se lo suelo decir a todo el mundo que lo pide, pero es mi café favorito. A mi padre le encantaba tomarlo en el trabajo con sus compañeros.";
+            a.text = "Conque de ahí viene el nombre,...";
+            b.text = "¿Ah si?";
+            c.text = "No me interesa";
         }
 
         public void actualizar_dia3122(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.122";
-            a.text = "3.1221";
-            b.text = "3.1222";
-            c.text = "3.1223";
+            texto.text = "Espera espera, la carta es muy grande, no creo que puedas con todo";
+            a.text = "¿Que no? Madre mía te digo yo a ti que si";
+            b.text = "Subestimas mi poder";
+            c.text = "Soy un pozo sin fondo";
         }
 
         public void actualizar_dia3123(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.123";
-            a.text = "3.1231";
-            b.text = "3.1232";
-            c.text = "3.1233";
+            texto.text = "¿Un barraquito? Que es eso? Yo te recomendaría un café de Java, es más rápido";
+            a.text = "Me fio de tus gustos, sírveme uno";
+            b.text = "Me gusta mas el barraquito";
+            c.text = "No me vendas la moto"; ;
         }
 
         public void actualizar_dia3131(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.131";
-            a.text = "3.1311";
-            b.text = "3.1312";
-            c.text = "3.1313";
+            texto.text = "Gajes del oficio";
+            a.text = "Se te nota curtida en el asunto";
+            b.text = "Te veo dolida";
+            c.text = "Te entiendo, dame un abrazo";
         }
 
         public void actualizar_dia3132(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.132";
-            a.text = "3.1321";
-            b.text = "3.1322";
-            c.text = "3.1323";
+            texto.text = "Espera espera, la carta es muy grande, no creo que puedas con todo";
+            a.text = "¿Que no? Madre mía te digo yo a ti que si";
+            b.text = "Subestimas mi poder";
+            c.text = "Soy un pozo sin fondo";
         }
 
         public void actualizar_dia3133(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "3.133";
-            a.text = "3.1331";
-            b.text = "3.1332";
-            c.text = "3.1333";
+            texto.text = "Vaya, se ve que la estrategia no ha funcionado muy bien...";
+            a.text = "Pues no, la verdad";
+            b.text = "No te preocupes, sigue intentándolo";
+            c.text = "Quien la sigue la consigue";
         }
 
         //DIA 4
 
         public void actualizar_dia4(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4";
-            a.text = "4.1";
-            b.text = "4.1";
-            c.text = "4.1";
+            texto.text = "Buenos días. Bienvenido a la cafetería Oracle";
+            a.text = "Hola";
+            b.text = "Curioso el nombre";
+            c.text = "Gracias ";
 
         }
         public void actualizar_dia41(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.1";
-            a.text = "4.11";
-            b.text = "4.12";
-            c.text = "4.13";
+            texto.text = "¿Ya sabes lo que quieres hoy?";
+            a.text = "Aun no";
+            b.text = "Estoy ocupado con una práctica, ponme un café";
+            c.text = "Ponme lo de siempre";
 
         }
 
         public void actualizar_dia411(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.11";
-            a.text = "4.111";
-            b.text = "4.112";
-            c.text = "4.113";
+            texto.text = "Entonces te dejo más tiempo para decidir, avísame si quieres algo";
+            a.text = "Bueno, ahora que lo pienso, ponme un vaso de agua";
+            b.text = "¿Que me recomiendas para picar?";
+            c.text = "(Quedarse callado)";
 
         }
 
         public void actualizar_dia412(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.12";
-            a.text = "4.121";
-            b.text = "4.122";
-            c.text = "4.123";
+            texto.text = "Bueno, ya sabes lo que dicen: “Si no lo logras a la primera, llámalo versión 1.0”. ¿Quieres azúcar?";
+            a.text = "Espero no tener muchas versiones";
+            b.text = "Ponme mucha azúcar, por favor";
+            c.text = "Quiero que compile";
 
         }
 
         public void actualizar_dia413(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.13";
-            a.text = "4.131";
-            b.text = "4.132";
-            c.text = "4.133";
+            texto.text = "¡Un café de Java marchando!";
+            a.text = "Ponme mucha azúcar, por favor";
+            b.text = "(Teclear furiosamente)";
+            c.text = "Menos mal que la cafetería está cerca";
 
         }
 
         public void actualizar_dia4111(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.111";
-            a.text = "4.1111";
-            b.text = "4.1112";
-            c.text = "4.1113";
+            texto.text = "¿Entrar a una cafetería a por un vaso de agua? Bueno, cosas peores se han visto";
+            a.text = "Un codigo sin comentarios";
+            b.text = "El live action de Death Note en Netflix";
+            c.text = "Entregar una práctica un viernes a ultima hora";
 
         }
 
         public void actualizar_dia4112(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.112";
-            a.text = "4.1121";
-            b.text = "4.1122";
-            c.text = "4.1123";
+            texto.text = "Pues un editor de texto plano y mucha imaginación";
+            a.text = "Vaaaale, mejor me voy";
+            b.text = "Me refería de la carta";
+            c.text = "Me ha gustado, no me lo esperaba";
 
         }
 
         public void actualizar_dia4113(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.113";
-            a.text = "4.1131";
-            b.text = "4.1132";
-            c.text = "4.1133";
+            texto.text = "Bueno, eso significa que no quieres que te moleste";
+            a.text = "Veo que pillas las indirectas";
+            b.text = "Realmente no sé que pedir";
+            c.text = "(Continuar callado)";
 
         }
 
         public void actualizar_dia4121(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.121";
-            a.text = "4.1211";
-            b.text = "4.1212";
-            c.text = "4.1213";
+            texto.text = "El café seguro que te ayuda, enseguida te lo traigo";
+            a.text = "Muchas gracias";
+            b.text = "Date prisa";
+            c.text = "Tengo ganas de probarlo";
         }
 
         public void actualizar_dia4122(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.122";
-            a.text = "4.1221";
-            b.text = "4.1222";
-            c.text = "4.1223";
+            texto.text = "Te veo estresado, tómate un descanso de vez en cuando";
+            a.text = "Eso es lo que recomiendan todos";
+            b.text = "Gracias por ser tan amable";
+            c.text = "No hasta que no la termine";
         }
 
         public void actualizar_dia4123(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.123";
-            a.text = "4.1231";
-            b.text = "4.1232";
-            c.text = "4.1233";
+            texto.text = "Eso es que se te escapó algún punto y coma, dale tiempo y revisa";
+            a.text = "Veo que entiendes del tema";
+            b.text = "Imposible";
+            c.text = "Tendré que revisar mi código";
         }
 
         public void actualizar_dia4131(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.131";
-            a.text = "4.1311";
-            b.text = "4.1312";
-            c.text = "4.1313";
+            texto.text = "Te veo estresado, tómate un descanso de vez en cuando";
+            a.text = "Eso es lo que recomiendan todos";
+            b.text = "Gracias por ser tan amable";
+            c.text = "No hasta que no la termine";
         }
 
         public void actualizar_dia4132(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.132";
-            a.text = "4.1321";
-            b.text = "4.1322";
-            c.text = "4.1323";
+            texto.text = "Tranquilo, no vaya a ser que pierdas el CTRL";
+            a.text = "10/10 ";
+            b.text = "Sin Ctrl +z pierdo la cabeza";
+            c.text = "¿Has intentado ir al club de la comedia?";
         }
 
         public void actualizar_dia4133(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "4.133";
-            a.text = "4.1331";
-            b.text = "4.1332";
-            c.text = "4.1333";
+            texto.text = "Es una gran ventaja para estudiantes. Además el precio está adaptado";
+            a.text = "Todo bien mientras no suban el precio 0,2€";
+            b.text = "Ya te digo, es una pasada";
+            c.text = "No es para tanto";
         }
 
         //DIA 5
 
         public void actualizar_dia5(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5";
-            a.text = "5.1";
-            b.text = "5.1";
-            c.text = "5.1";
+            texto.text = "Buenos días. Bienvenido a la cafetería Oracle";
+            a.text = "Bonito nombre";
+            b.text = "...Mejor me siento";
+            c.text = "Espero que por eso me pongas una buena taza de cafe";
 
         }
         public void actualizar_dia51(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.1";
-            a.text = "5.11";
-            b.text = "5.12";
-            c.text = "5.13";
+            texto.text = "Veo que no te cansas de venir por aquí. Me alegra que te guste la cafetería";
+            a.text = "Es lo que tiene el café";
+            b.text = "La cafetería tiene algo que a todos los informáticos nos atrae";
+            c.text = "Exactamente, ponme un café para llevar";
 
         }
 
         public void actualizar_dia511(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.11";
-            a.text = "5.111";
-            b.text = "5.112";
-            c.text = "5.113";
+            texto.text = "Cuanta razón tienes. El café es casi indispensable para rendir al 100%... Aunque traigo una mala noticia. Se nos ha terminado el café de Java";
+            a.text = "Menuda ironía";
+            b.text = "Normal, es tan bueno que todo el mundo lo quiere probar";
+            c.text = "Entonces me voy";
 
         }
 
         public void actualizar_dia512(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.12";
-            a.text = "5.121";
-            b.text = "5.122";
-            c.text = "5.123";
+            texto.text = "Creo que eso es más común de lo que nos pensamos";
+            a.text = "Sírveme lo que quieras";
+            b.text = "Somos como Homer y la cerveza";
+            c.text = "Es nuestra kriptonita";
 
         }
 
         public void actualizar_dia513(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.13";
-            a.text = "5.131";
-            b.text = "5.132";
-            c.text = "5.133";
+            texto.text = "¿Hace falta que pregunte el café que quieres?";
+            a.text = "Creo que no";
+            b.text = "Como quieras";
+            c.text = "Tengo prisa";
 
         }
 
         public void actualizar_dia5111(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.111";
-            a.text = "5.1111";
-            b.text = "5.1112";
-            c.text = "5.1113";
+            texto.text = "Ya, pero bueno, si quieres te puedo servir otra cosa";
+            a.text = "Nah, mejor me voy";
+            b.text = "Vale, lo dejo en tus manos";
+            c.text = "Que no vuelva a pasar";
 
         }
 
         public void actualizar_dia5112(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.112";
-            a.text = "5.1121";
-            b.text = "5.1122";
-            c.text = "5.1123";
+            texto.text = "Que agradable eres, veo que eres comprensible. No todo el mundo lo entiende.";
+            a.text = "No te preocupes, es algo normal";
+            b.text = "Esto no debería pasar nunca";
+            c.text = "La gente siempre está enfadada por las mañanas";
 
         }
 
         public void actualizar_dia5113(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.113";
-            a.text = "5.1131";
-            b.text = "5.1132";
-            c.text = "5.1133";
+            texto.text = "Lo sentimos mucho, te podemos poner un cortado si quieres";
+            a.text = "Mejor un barraquito";
+            b.text = "No te preocupes por eso";
+            c.text = "Que poca vergüenza";
 
         }
 
         public void actualizar_dia5121(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.121";
-            a.text = "5.1211";
-            b.text = "5.1212";
-            c.text = "5.1213";
+            texto.text = " Me lo dejas en bandeja, ahora te traigo un cafe de Java";
+            a.text = "¿Lo dices por ser camarera?";
+            b.text = "Gracias, muy amable";
+            c.text = "Cuanto antes mejor";
         }
 
         public void actualizar_dia5122(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.122";
-            a.text = "5.1221";
-            b.text = "5.1222";
-            c.text = "5.1223";
+            texto.text = "O como Maggie y su chupete";
+            a.text = "Vivan las referencias";
+            b.text = "Ahi ya te pasaste";
+            c.text = "No me sigas el juego";
         }
 
         public void actualizar_dia5123(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.123";
-            a.text = "5.1231";
-            b.text = "5.1232";
-            c.text = "5.1233";
+            texto.text = "Que agradable es tener conversaciones así de vez en cuando";
+            a.text = "Tu trabajo puede ser estresante";
+            b.text = "Nunca viene mal";
+            c.text = "Bueno, suficiente";
         }
 
         public void actualizar_dia5131(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.131";
-            a.text = "5.1311";
-            b.text = "5.1312";
-            c.text = "5.1313";
+            texto.text = "Bastante obvio, ¿verdad?";
+            a.text = "Nunca es demasiado obvio";
+            b.text = "(Asentir con la cabeza)";
+            c.text = "Pues si";
         }
 
         public void actualizar_dia5132(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.132";
-            a.text = "5.1321";
-            b.text = "5.1322";
-            c.text = "5.1323";
+            texto.text = "¡Marchando un café de Java para llevar!";
+            a.text = "Cuanta felicidad con tan poco";
+            b.text = "No vuelvas a hacer eso por favor";
+            c.text = "Espero que no nos hayan escuchado";
         }
 
         public void actualizar_dia5133(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "5.133";
-            a.text = "5.1331";
-            b.text = "5.1332";
-            c.text = "5.1333";
+            texto.text = "Vale vale, enseguida te lo traigo";
+            a.text = "Lo que hay que soportar";
+            b.text = "Quizás me pasé";
+            c.text = "Que paciencia hay que tener";
         }
 
         //DIA 6
