@@ -10,7 +10,7 @@ public class main : MonoBehaviour {
         int love;
         int veces_visitado;
         //DAY 1
-        public void actualizar_dia1(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Hey , que , que haces aquí. No deberías estar por los pasillos,¿Acaso eres el nuevo?\n";
 			a.text = "Si no se de que te extrañas.";
@@ -18,7 +18,7 @@ public class main : MonoBehaviour {
 			c.text = "Si, ando un poco perdido";
 
         }
-        public void actualizar_dia11(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia11(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Siendo así no me extraña. Pues… “Bienvenido al instituto” Espero que programemos mucho juntos";
 			a.text = "No se yo, a mi me van mas los lenguajes de scripting";
@@ -27,7 +27,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia111(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "A bueno, eso es otra cosa. A mi el scripting no me va mucho, pero si me lo pides te podría llevar a muchas bibliotecas públicas muy guays ^^";
 			a.text = "Bueno. Si tantas ganas tienes creo que podría intentarlo";
@@ -36,7 +36,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia112(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Retos moderados. Se que parezco fácil pero espera un poco y verás… jeje";
 			a.text = "Tan difícil eres?";
@@ -45,7 +45,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia113(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Jo. Entonces te puedo presentar a algunos de mis familiares";
 			a.text = "Me han dicho que c++ también está por aquí?\n";
@@ -54,16 +54,17 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia1111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1111(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "BIEEEEEEN!!! Creo que para empezar con algo facil deberias practicar con la entrada y la salida, que siempre da problemas";
 			a.text = "Claro! Seguire tus consejos al pie de la letra";
 			b.text = "Prefiero empezar por los bucles que son más entretenidos";
 			c.text = "Tal vez mañana nos vemos. Hasta entonces return 0;";
+            cor++;
 
         }
 
-        public void actualizar_dia1112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1112(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "No pensaba que fueras a ser tan estúpido. Seguro que eres de los que programan solo con scratch";
 			a.text = "Y a mucha honra";
@@ -72,7 +73,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia1113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1113(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Nunca pensé que me encontrara a alguien tan desagradecido. No mereces ser programador";
 			a.text = "Todo era mejor con solo circuitos no programables";
@@ -81,7 +82,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia1121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1121(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Al principio no, pero tengo una curva de dificultad peor que la del dark souls";
 			a.text = " Acepto el reto";
@@ -89,14 +90,14 @@ public class main : MonoBehaviour {
 			c.text = "Venga va. Que no se diga que no se intenta";
         }
 
-        public void actualizar_dia1122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1122(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Jajajajajajajaj o tal vez ni eso";
 			a.text = "Que si, ya verás";
 			b.text = "Te apuesto lo que quieras a que te hago un juego";
 			c.text = "Si me ayudas claro que lo conseguiré";
         }
-		public void actualizar_dia1123(Text texto, Text a, Text b, Text c)
+		public void actualizar_dia1123(Text texto, Text a, Text b, Text c, ref int cor)
 		{
 			texto.text = "Hey!! Que solo tengo 45 años";
 			a.text = "Lo dicho. Vieja";
@@ -104,7 +105,7 @@ public class main : MonoBehaviour {
 			c.text = "Comparado con migo, un millenial, eres vieja";
 		}
 
-        public void actualizar_dia1131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1131(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Si. Probablemente la encuentres en los pasillos. Siempre con objetos en la cabeza";
 			a.text = "Pues tal vez me pase mañana";
@@ -112,7 +113,7 @@ public class main : MonoBehaviour {
 			c.text = "Mañana será otro día";
         }
 
-        public void actualizar_dia1132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1132(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Que va. Es una hikikomori del .NET. Y su padre Microsoft se enfada mucho siempre";
 			a.text = "Entonces me alegro de que no esté en este instituto";
@@ -120,7 +121,7 @@ public class main : MonoBehaviour {
 			c.text = "Que gente mas rara hay en el mundo";
         }
 
-        public void actualizar_dia1133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1133(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Por supuesto. Aquí estamos las mejores (Menos PHP. Esa no le gusta a nadie)";
 			a.text = "Pues habrá que saludar";
@@ -130,7 +131,7 @@ public class main : MonoBehaviour {
 
         //DIA 2
 
-        public void actualizar_dia2(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Hey ayuda por favor;";
 			a.text = "Qué te pasa?";
@@ -138,7 +139,7 @@ public class main : MonoBehaviour {
 			c.text = "Aviso a alguien??";
 
         }
-        public void actualizar_dia21(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia21(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Creo que voy a tener un error. No se que puede ser";
 			a.text = "Seguro que es cosa de algún “;” que falta";
@@ -147,7 +148,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia211(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia211(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Si, seguramente. Me ayudas a buscarlo?";
 			a.text = "Por supuesto. Entre los 2 y un poco de extreme programming lo encontramos enseguida";
@@ -156,7 +157,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia212(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia212(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Si estoy segura de haberlas añadido";
 			a.text = "Y las dependencias están instaladas??";
@@ -165,7 +166,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia213(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia213(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Si si, es un segmentation. Noooooooo...";
 			a.text = "Pero no te desmayes";
@@ -174,16 +175,16 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia2111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2111(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Muchas gracias. Sin ti no lo habría encontrado <3";
 			a.text = "De nada :)";
 			b.text = "Nunca está de más ayudar a un amigo";
 			c.text = "Siempre que quieras te ayudo";
-
+            cor++;
         }
 
-        public void actualizar_dia2112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2112(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Siempre respondes con ese tono de estúpido";
 			a.text = "Será porque lo soy";
@@ -192,7 +193,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia2113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2113(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Ya, pero ye tengo algo que python no tiene...";
 			a.text = "Carisma";
@@ -201,7 +202,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia2121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2121(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Por supuesto. Que me tomas por una novata ??";
 			a.text = "Que humos tan subidos.";
@@ -209,7 +210,7 @@ public class main : MonoBehaviour {
 			c.text = "jajajaja con esa actitud claro que tienes errores";
         }
 
-        public void actualizar_dia2122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2122(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "No creo. Voy en linux que apenas falla";
 			a.text = "Yo soy más de Windows";
@@ -217,7 +218,7 @@ public class main : MonoBehaviour {
 			c.text = "apel al poderrrr ";
         }
 
-        public void actualizar_dia2123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2123(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "no es verdad :’(";
 			a.text = "Claro que si";
@@ -225,7 +226,7 @@ public class main : MonoBehaviour {
 			c.text = "Otros lenguajes son  capaces de omitir esos fallos";
         }
 
-        public void actualizar_dia2131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2131(Text texto, Text a, Text b, Text c, ref int cor)
         {
             texto.text = "...";
 			a.text = "Te has quedado colgada del todo XD";
@@ -233,7 +234,7 @@ public class main : MonoBehaviour {
 			c.text = "Que fallo. Seguro que algún contador ha desbordado un vector o algo";
         }
 
-        public void actualizar_dia2132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2132(Text texto, Text a, Text b, Text c, ref int cor)
         {
             texto.text = "...";
 			a.text = "Te has quedado colgada del todo XD";
@@ -241,7 +242,7 @@ public class main : MonoBehaviour {
 			c.text = "Que fallo. Seguro que algún contador ha desbordado un vector o algo";
         }
 
-        public void actualizar_dia2133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2133(Text texto, Text a, Text b, Text c, ref int cor)
         {
             texto.text = "...";
 			a.text = "Te has quedado colgada del todo XD";
@@ -251,7 +252,7 @@ public class main : MonoBehaviour {
 
         //DIA3
 
-        public void actualizar_dia3(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Te puedo hacer una pregunta";
 			a.text = "Claro";
@@ -259,7 +260,7 @@ public class main : MonoBehaviour {
 			c.text = "No";
 
         }
-        public void actualizar_dia31(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia31(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues ahí va :Tu que prefieres ++dummy o dummy++?";
 			a.text = "Todo el mundo sabe que hacen cosas diferentes";
@@ -268,7 +269,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia311(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia311(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Eso ya lo se. Eres un poco antipático";
 			a.text = "Es que si haces preguntas de primero de carrera pues claro...";
@@ -277,7 +278,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia312(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia312(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Se ve que sabes lo que es bueno de verdad";
 			a.text = "Ya, yo no quiero para nada una copia del objeto";
@@ -286,7 +287,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia313(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia313(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Ese no me llega a convencer";
 			a.text = "Es el que usa la mayoría de gente";
@@ -295,7 +296,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia3111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3111(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues para que te pongas así me voy";
 			a.text = "pues vale";
@@ -304,7 +305,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia3112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3112(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Vale vale, pues entonces cuál es tu favorita?";
 			a.text = "dummy++";
@@ -313,7 +314,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia3113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3113(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues te quedas solo, ser supremo de la luz";
 			a.text = "Esa era mi intención";
@@ -322,15 +323,16 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia3121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3121(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Sabes la diferencia!!! Eres el mejor";
 			a.text = "<3";
 			b.text = "Ya lo sabia jeje";
 			c.text = "No hace falta que lo digas";
+            cor++;
         }
 
-        public void actualizar_dia3122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3122(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues a mi un poco :/";
 			a.text = " No me importa tu opinión";
@@ -338,7 +340,7 @@ public class main : MonoBehaviour {
 			c.text = "Hasta otro dia, pues";
         }
 
-        public void actualizar_dia3123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3123(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Tengo un +10 en carisma siempre";
 			a.text = "Hey que esto no es d&d";
@@ -346,7 +348,7 @@ public class main : MonoBehaviour {
 			c.text = "jajajaj claro. Hasta otro dia";
         }
 
-        public void actualizar_dia3131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3131(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Ya, y eso no me gusta";
 			a.text = "Pues habrá que explicarles las diferencias";
@@ -354,7 +356,7 @@ public class main : MonoBehaviour {
 			c.text = "otro dia me cuentas el porqué";
         }
 
-        public void actualizar_dia3132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3132(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Si has llegado aquí te has encontrado con mi falta de inspiración";
 			a.text = "No se que poner aqui";
@@ -362,7 +364,7 @@ public class main : MonoBehaviour {
 			c.text = "-Ninguna de estas opciones es la valida";
         }
 
-        public void actualizar_dia3133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3133(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "O mejor dicho, estilos de programación";
 			a.text = "Jajajaja";
@@ -372,7 +374,7 @@ public class main : MonoBehaviour {
 
         //DIA 4
 
-        public void actualizar_dia4(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Ya has hecho mi hello world?";
 			a.text = "Todo el mundo sabe que el hello world se copia y pega;";
@@ -380,7 +382,7 @@ public class main : MonoBehaviour {
 			c.text = "Si, y hasta me resulto dificil";
 
         }
-        public void actualizar_dia41(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia41(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues creo que va siendo hora de pasar a cosas más complejas";
 			a.text = "Mientras no programemos lenguajes operativos";
@@ -389,7 +391,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia411(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia411(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Jo, pues esa era mi intención";
 			a.text = "Ves, si es que te leo la mente";
@@ -398,7 +400,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia412(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia412(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues te voy a recomendar la librería Darknet de redes neuronales";
 			a.text = "Wow, frena el carro, que no soy de computación";
@@ -407,7 +409,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia413(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia413(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Wow para el carro. Que no nos podemos pasar de pegi 7 que nos echan la bronca";
 			a.text = "pfff creo que todos somos adultos aquí";
@@ -416,7 +418,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia4111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4111(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "jajajajaja coincidencia";
 			a.text = "Lo dicho, no hay ganas";
@@ -425,7 +427,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia4112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4112(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Ya lo se, pero hago lo que puedo";
 			a.text = "Se te quiere igual";
@@ -434,7 +436,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia4113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4113(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "pssss a ti";
 			a.text = "pasando";
@@ -443,7 +445,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia4121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4121(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "No necesitas ser de computación para entenderlo";
 			a.text = "Bueno bueno, aunque lo digas así, no";
@@ -451,15 +453,16 @@ public class main : MonoBehaviour {
 			c.text = "Déjame en paz anda";
         }
 
-        public void actualizar_dia4122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4122(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Genial, ya me irás contando que tal :)";
 			a.text = "Por supuesto";
 			b.text = "Mañana mismo te lo digo";
 			c.text = "claro";
+            cor++;
         }
 
-        public void actualizar_dia4123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4123(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Jo, vale";
 			a.text = "Si es que no sabes recomendar nada bueno";
@@ -467,7 +470,7 @@ public class main : MonoBehaviour {
 			c.text = "Adios";
         }
 
-        public void actualizar_dia4131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4131(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Ya , pero no es cosa mía, es cosa de la organización";
 			a.text = "Pues a ver si el año que viene hacemos un juego muy gore";
@@ -475,7 +478,7 @@ public class main : MonoBehaviour {
 			c.text = "pasando";
         }
 
-        public void actualizar_dia4132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4132(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues aparentemente sí, y hay que mantener las formas";
 			a.text = "Que ganitas de decir lo que apetezca";
@@ -483,7 +486,7 @@ public class main : MonoBehaviour {
 			c.text = "XD";
         }
 
-        public void actualizar_dia4133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4133(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Claro que vende más";
 			a.text = "Que pena que esto no se venda";
@@ -493,7 +496,7 @@ public class main : MonoBehaviour {
 
         //DIA 5
 
-        public void actualizar_dia5(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Eres capaz de decir algun programa que yo he hecho";
 			a.text = "Sip";
@@ -501,7 +504,7 @@ public class main : MonoBehaviour {
             c.text = "Claro";
 
         }
-        public void actualizar_dia51(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia51(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Venga, te voy a dar una oportunidad. Elige sabiamente GIT, Unity, Twitter ";
 			a.text = "GIT";
@@ -510,7 +513,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia511(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia511(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Exacto. Has acertado. Se nota que sabes sobre mi";
 			a.text = "“Son muchos años estudiando ya";
@@ -519,7 +522,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia512(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia512(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues no. unity lo hace c++ (aunque seguro que me usa para ello)";
 			a.text = "si es que c++ es mejor";
@@ -528,7 +531,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia513(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia513(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Ni de cerca";
 			a.text = "He fallado adrede";
@@ -537,7 +540,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia5111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5111(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Jajajajajaja me alegro";
 			a.text = ":)";
@@ -546,16 +549,17 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia5112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5112(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "vas a hacer que me sonroje";
 			a.text = "<3";
 			b.text = "Cualquier piropo se queda corto";
 			c.text = "Si es que eres la mejor";
+            cor++;
 
         }
 
-        public void actualizar_dia5113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5113(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = " no es tan obvio. Hay mucha gente que falla";
 			a.text = "Me da igual";
@@ -564,7 +568,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia5121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5121(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Eso no es cierto :’(";
 			a.text = "si que lo es";
@@ -572,7 +576,7 @@ public class main : MonoBehaviour {
 			c.text = "adios";
         }
 
-        public void actualizar_dia5122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5122(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "ara que te pongas borde me voy";
 			a.text = "pues adiós";
@@ -580,7 +584,7 @@ public class main : MonoBehaviour {
 			c.text = "era solo una broma";
         }
 
-        public void actualizar_dia5123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5123(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "No tener clases no es malo. Solo soy de otro paradigma de programación";
 			a.text = "sin clases no hay gloria";
@@ -588,7 +592,7 @@ public class main : MonoBehaviour {
 			c.text = "Molaria que instanciaras un objeto. A no, que no puedes";
         }
 
-        public void actualizar_dia5131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5131(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "No te creo. Has fallado de verdad";
 			a.text = "si :S";
@@ -596,7 +600,7 @@ public class main : MonoBehaviour {
             c.text = "Adios";
         }
 
-        public void actualizar_dia5132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5132(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "pues que no está hecho en c. ¡¡Si es que es de navegador!!";
 			a.text = "tal vez estas confundida...\n";
@@ -604,7 +608,7 @@ public class main : MonoBehaviour {
 			c.text = "Adios";
         }
 
-        public void actualizar_dia5133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5133(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues si. Te quedas sin el regalo";
 			a.text = "¿Cómo, había un regalo?";
@@ -614,7 +618,7 @@ public class main : MonoBehaviour {
 
         //DIA 6
 
-        public void actualizar_dia6(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Qué decir. Se acaba la semana y no nos volveremos a ver hasta la semana que viene";
 			a.text = "Tambien me pone triste";
@@ -622,7 +626,7 @@ public class main : MonoBehaviour {
 			c.text = "Diga lo que diga vamos a ir a la misma opción";
 
         }
-        public void actualizar_dia61(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia61(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues eso. hagamos una cosa. Programemos un último programa";
 			a.text = "No";
@@ -631,7 +635,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia611(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia611(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "¿Porque no?¿no te gusto?";
 			a.text = "te he dicho muchas veces que no";
@@ -640,7 +644,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia612(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia612(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues vamos a ello. Elige tu el reto:";
 			a.text = "Bubble sort";
@@ -649,7 +653,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia613(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia613(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "pues si no estas seguro vete a un lenguaje más fácil. A no que no puedes";
 			a.text = "A veces pienso que tu personaje está mal enfocado";
@@ -658,7 +662,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia6111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6111(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "No tiene que ser tan maleducado";
 			a.text = "yo hago lo que quiero";
@@ -667,7 +671,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia6112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6112(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = ":’(";
 			a.text = "Adios";
@@ -676,7 +680,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia6113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6113(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Pues si no estas seguro, mejor lo hablamos en otra run";
 			a.text = "claro. Este juego es genial y lo voy a rejugar";
@@ -685,7 +689,7 @@ public class main : MonoBehaviour {
 
         }
 
-        public void actualizar_dia6121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6121(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Curiosa elección, vamos a ello";
 			a.text = "vamos";
@@ -693,7 +697,7 @@ public class main : MonoBehaviour {
 			c.text = "Adios";
         }
 
-        public void actualizar_dia6122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6122(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Un tema interesante, se ve que te van los retos";
 			a.text = "No hay reto que se me resista";
@@ -701,15 +705,16 @@ public class main : MonoBehaviour {
 			c.text = "Es que mola";
         }
 
-        public void actualizar_dia6123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6123(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "La vieja confiable. Me gusta tu estilo";
 			a.text = "jej :)";
 			b.text = "claro, hasta la próxima";
 			c.text = "Si es que molas tu y todo lo que hagas";
+            cor++;
         }
 
-        public void actualizar_dia6131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6131(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "pues claro que no lo está. Me escribieron a la 1:30 de la noche";
 			a.text = "jajajaja no dormir afecta al guionista";
@@ -717,7 +722,7 @@ public class main : MonoBehaviour {
 			c.text = "Adios";
         }
 
-        public void actualizar_dia6132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6132(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "Definitivamente mala programación";
 			a.text = "Si es que eso de hacer un juego en poco tiempo no sale bien";
@@ -725,7 +730,7 @@ public class main : MonoBehaviour {
 			c.text = "XD";
         }
 
-        public void actualizar_dia6133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6133(Text texto, Text a, Text b, Text c, ref int cor)
         {
 			texto.text = "No es a mi, sino al tío que me escribió";
 			a.text = "Se nota que no se le ocurre nada gracioso";
@@ -1461,728 +1466,735 @@ public class main : MonoBehaviour {
         int love;
         int veces_visitado;
         //DAY 1
-        public void actualizar_dia1(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "Aun no es la hora de Educacion Fisica, ¿que haces en la cancha?";
-            a.text = "Dar una vuelta, la clase me aburria, ni changeles.";
-            b.text = "Te podria preguntar lo mismo, ni changeles.";
-            c.text = "Sali al baño y me perdi, ni changeles.";
+            texto.text = "print(“Hola, tu debes de ser el nuevo”)";
+            a.text = "Si";
+            b.text = "Hola.";
+            c.text = "Se ve que pillas los detalles";
 
         }
-        public void actualizar_dia11(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia11(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "Bueno, ya que estas aqui, ¿Por que no jugamos un rato?";
-            a.text = "Por que no.";
-            b.text = "¿Estas seguro? Pertenezco a la generacion de los milagros.";
-            c.text = "Yo soy mas de estar en mi casa jugando a otomes.";
-
-        }
-
-        public void actualizar_dia111(Text texto, Text a, Text b, Text c)
-        {
-            texto.text = "No tienes muchas ganas de jugar";
-            a.text = "No estoy muy animado.";
-            b.text = "Es que no me apetece jugar contigo.";
-            c.text = "No se jugar.";
+            texto.text = "Espero que aprendas mucho en este instituto. (Sobre todo a como indentar bien codigo jejeje)";
+            a.text = "Indentar el código es de débiles. Yo lo hago todo en una línea";
+            b.text = " “Codigo indentado” == “Alma en paz”";
+            c.text = "Me centro más en lo que programo que en cómo lo hago";
 
         }
 
-        public void actualizar_dia112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia111(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "Vaya chuleria llevas encima, vamos a ver si lo demuestras";
-            a.text = "Despues no digas que no te lo adverti.";
-            b.text = "Primero debemos calentarnos.";
-            c.text = "Here we go!";
+            texto.text = "Se ve que vas por ahi de duro";
+            a.text = "No lo voy, lo soy";
+            b.text = "No no, era broma";
+            c.text = "Y a ti qué más te da";
 
         }
 
-        public void actualizar_dia113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia112(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "Que aburrido eres, ¿nunca haces deporte?";
-            a.text = "Nop.";
-            b.text = "Aveces, cuando me dicen mis amigos de jugar.";
-            c.text = "Voy al gimnsaio para mantenerme.";
+            texto.text = "Efectivamente, esa es una gran filosofía de vida";
+            a.text = "Y ademas hay ciertos lenguajes que necesitan estar bien indentados….";
+            b.text = "La mejor sin dudarlo";
+            c.text = "Eso si, depende de quien lo haga puede llegar a verse feo";
 
         }
 
-        public void actualizar_dia1111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia113(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "¿Y eso por que? ¿No te encuentras bien?";
-            a.text = "No mucho, me duele la cabeza.";
-            b.text = "Ultimamente no estoy animado con nada.";
-            c.text = "Simplemente no me apetece.";
+            texto.text = "Pues seguro que estéticamente es feo";
+            a.text = "Eso da igual";
+            b.text = "Estas diciendo que programo mal!!!??";
+            c.text = "Cada cual con su estilo";
 
         }
 
-        public void actualizar_dia1112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1111(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "Eres un borde, no me apetece hablar mas contigo";
-            a.text = "...";
-            b.text = "...";
-            c.text = "...";
+            texto.text = "Pues no creo que dures mucho aquí, señor duro";
+            a.text = "Paso de ti";
+            b.text = "No te creas";
+            c.text = "jajajajajaja";
 
         }
 
-        public void actualizar_dia1113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1112(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "No te preocupes, yo te puedo enseñar";
-            a.text = "Mejor no, ahora mismo me siento mal";
-            b.text = "Venga va";
-            c.text = "Se amable conmigo sempai!";
+            texto.text = "Bueno, si es asi seguro que tarde o temprano nos llevamos bien";
+            a.text = "Jajajaja te lo creíste";
+            b.text = "Si claro";
+            c.text = "Puede";
 
         }
 
-        public void actualizar_dia1121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1113(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "Vaya, menudo partido. No me lo has puesto nada facil. Pero todo el mundo sabe que soy dificil de dominar";
-            a.text = "Un placer jugar contigo.";
-            b.text = "Tu dame tiempo y te acabaras arrodillando antes mi";
-            c.text = "Por eso mismo nadie te quiere, eres un duro.";
+            texto.text = "Pues que como delegada me tengo que asegurar que todos los alumnos son decentes";
+            a.text = "Me da igual eso";
+            b.text = "Que ocupación más chorra";
+            c.text = "Los delegados no son necesarios";
+
         }
 
-        public void actualizar_dia1122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1121(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "¿Es eso una proposicion indicente?";
-            a.text = "Sera lo que tu quieras que sea <3";
-            b.text = "¿Como va a ser nada? No quiero lesionarme";
-            c.text = "Puede...";
-        }
-		public void actualizar_dia1123(Text texto, Text a, Text b, Text c)
-		{
-			texto.text = "Hey!! Que solo tengo 45 años";
-			a.text = "Lo dicho. Vieja";
-			b.text = "Tus descendientes más jóvenes van mejor que tu";
-			c.text = "Comparado con migo, un millenial, eres vieja";
-		}
-
-        public void actualizar_dia1131(Text texto, Text a, Text b, Text c)
-        {
-            texto.text = "¿Y por que no?";
-            a.text = "No me gusta sudar.";
-            b.text = "Por que me gusta mas ejercitar el cerebro.";
-            c.text = "Pues por pereza sin mas";
+            texto.text = "O-O se ve que sabes mis secretos. jajajaja me caes bien";
+            a.text = "Es que a quien no le voya a caer bien";
+            b.text = "Tu me caes bien a mi";
+            c.text = ":)";
+            cor++;
         }
 
-        public void actualizar_dia1132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1122(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "Pues propon tu el ir a jugar";
-            a.text = "Deberia hacer eso";
-            b.text = "Vivo lejos y no tengo medio de transporte";
-            c.text = "Todos estamos muy ocupados";
+            texto.text = "Tal vez en un futuro nos podremos llevar bien";
+            a.text = "Claro";
+            b.text = "Mañana mismo por ejemplo";
+            c.text = "El futuro siempre es insondable como mi alma";
+        }
+        public void actualizar_dia1123(Text texto, Text a, Text b, Text c, ref int cor)
+        {
+            texto.text = "Por supuesto, como esa odiosa gente que deja muchas lineas en blanco, o abre los corchetes en la linea de debajo de la funcion";
+            a.text = "No te puedo llevar la contraria en eso";
+            b.text = "Llevas toda la razon";
+            c.text = "Esa es la unica verdad";
         }
 
-        public void actualizar_dia1133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia1131(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "Como debe ser";
-            a.text = "Todos deberian hacer lo mismo";
-            b.text = "Estoy mal de la espalda y debo mantenerme";
-            c.text = "Por cada vez que un codigo no compila hago 5 dominadas"; //Cambiarlo, no me convence
+            texto.text = "Un buen código no es aquel que puede leer una máquina, sino el que puede entender un humano";
+            a.text = "Que profundo, pero me da igual";
+            b.text = "Dices cosas muy raras";
+            c.text = "eres muy rara";
+        }
+
+        public void actualizar_dia1132(Text texto, Text a, Text b, Text c, ref int cor)
+        {
+            texto.text = "Mal mal, no. Bueno si, programar feo es programar mal";
+            a.text = "Tienes razón, intentaré cambiar";
+            b.text = "Es duro cambiar, pero no te puedo llevar la contraria en esto";
+            c.text = "Pasando";
+        }
+
+        public void actualizar_dia1133(Text texto, Text a, Text b, Text c, ref int cor)
+        {
+            texto.text = "Bueno, es recomendable tener un estilo generico en plan el de google o microsoft en vez de uno propio to’feo";
+            a.text = "Tal vez tengas razon";
+            b.text = "No sabes lo que dices";
+            c.text = "Pasando"; //Cambiarlo, no me convence
         }
 
         //DIA 2
 
-        public void actualizar_dia2(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2";
-            a.text = "2.1";
-            b.text = "2.1";
-            c.text = "2.1";
+            texto.text = "Parece que me has seleccionado para tu segundo dia!";
+            a.text = "Por supuesto";
+            b.text = "No, me he equivocado";
+            c.text = "Me he equivocado, pero vale";
 
         }
-        public void actualizar_dia21(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia21(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.1";
-            a.text = "2.11";
-            b.text = "2.12";
-            c.text = "2.13";
-
-        }
-
-        public void actualizar_dia211(Text texto, Text a, Text b, Text c)
-        {
-            texto.text = "2.11";
-            a.text = "2.111";
-            b.text = "2.112";
-            c.text = "2.113";
+            texto.text = "Bueno, sea como sea ahora estás aqui";
+            a.text = "Que desgracia";
+            b.text = "Me alegro por ello";
+            c.text = "Menos da una piedra";
 
         }
 
-        public void actualizar_dia212(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia211(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.12";
-            a.text = "2.121";
-            b.text = "2.122";
-            c.text = "2.123";
+            texto.text = "No le pienses asi, piensalo mejor como una oportunidad";
+            a.text = "Oportunidad para que";
+            b.text = "pasando";
+            c.text = "Siempre eres asi";
 
         }
 
-        public void actualizar_dia213(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia212(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.13";
-            a.text = "2.131";
-            b.text = "2.132";
-            c.text = "2.133";
+            texto.text = "Siempre me gusta conocer a gente con tantas ganas como yo";
+            a.text = "Si es que eres la más útil de todas";
+            b.text = "Juntas haríais algo genial";
+            c.text = "A ver, que tantas tantas ganas ,no tengo";
 
         }
 
-        public void actualizar_dia2111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia213(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.111";
-            a.text = "2.1111";
-            b.text = "2.1112";
-            c.text = "2.1113";
+            texto.text = "Ya, pero las piedras no son tan guapas como yo";
+            a.text = "No te lo tengas tan creido";
+            b.text = "Bueno bueno, eso es discutible";
+            c.text = "Lo importante no es la belleza, sino la velocidad a la que interpretas codigo";
 
         }
 
-        public void actualizar_dia2112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2111(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.112";
-            a.text = "2.1121";
-            b.text = "2.1122";
-            c.text = "2.1123";
+            texto.text = "No se, aprender algo";
+            a.text = "No lo creo";
+            b.text = "Ya se todo lo que necesito";
+            c.text = "Mejor otro dia";
 
         }
 
-        public void actualizar_dia2113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2112(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.113";
-            a.text = "2.1131";
-            b.text = "2.1132";
-            c.text = "2.1133";
+            texto.text = "Cuando tengas que hacer algo facilmente te acordaras que no me aprendiste cuando pudiste";
+            a.text = "No lo creo";
+            b.text = "Si ese dia llega te daré la razon";
+            c.text = "jajajajajajaja no";
 
         }
 
-        public void actualizar_dia2121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2113(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.121";
-            a.text = "2.1211";
-            b.text = "2.1212";
-            c.text = "2.1213";
+            texto.text = "Si, y no me has visto en todo mi poder. Soy genial manejando excepciones";
+            a.text = "Pues maneja esta << Dices mientras se va haciendo un gesto muy obsceno>>";
+            b.text = "C++ maneja mejor las exepciones";
+            c.text = "Paso de ti";
+
         }
 
-        public void actualizar_dia2122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2121(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.122";
-            a.text = "2.1221";
-            b.text = "2.1222";
-            c.text = "2.1223";
+            texto.text = "Ya lo se, no hace falta que lo digas";
+            a.text = "Creo que incluso uno de los programadores de este juego te usó para hacer un poster que está en el congreso";
+            b.text = ":)";
+            c.text = "Eso es una verdad como un puño";
+            cor++;
         }
 
-        public void actualizar_dia2123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2122(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.123";
-            a.text = "2.1231";
-            b.text = "2.1232";
-            c.text = "2.1233";
+            texto.text = "Si la realidad es que para hacer algo genial nos tienes que dominar a todas";
+            a.text = "A ver si lo consigo";
+            b.text = "Eso parece una ardua tarea";
+            c.text = "Espero tener suerte y seguir clicando de manera aleatoria las opciones correctas";
         }
 
-        public void actualizar_dia2131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2123(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.131";
-            a.text = "2.1311";
-            b.text = "2.1312";
-            c.text = "2.1313";
+            texto.text = "Pues entonces no me hagas perder ciclos de cpu y pirate";
+            a.text = "Pues me voy";
+            b.text = "Si es que eres una simple";
+            c.text = "Pasando";
         }
 
-        public void actualizar_dia2132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2131(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.132";
-            a.text = "2.1321";
-            b.text = "2.1322";
-            c.text = "2.1323";
+            texto.text = "Me lo puedo tener creido, que si no fuera por el congreso probablemente estarias solo/a en tu casa sin amigos";
+            a.text = "De que vas";
+            b.text = "Ahora me has hecho llorar";
+            c.text = "Pues creo que yo y mis amigos vamos a darle una paliza al que hizo esto ";
         }
 
-        public void actualizar_dia2133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia2132(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "2.133";
-            a.text = "2.1331";
-            b.text = "2.1332";
-            c.text = "2.1333";
+            texto.text = "No es discutible. Soy el lenguaje mas elegante de todos";
+            a.text = "Eso es hasta que el Go te destrone";
+            b.text = "C++ es mucho mas elegante";
+            c.text = "yo soy mas de la belleza clásica. ensamblador y esas cosas";
+        }
+
+        public void actualizar_dia2133(Text texto, Text a, Text b, Text c, ref int cor)
+        {
+            texto.text = "Y eso se me da dpm";
+            a.text = "Pero nunca serás tan rapida como uno compilado";
+            b.text = "Jajajajajajaja";
+            c.text = "Eso hay que testearlo";
         }
 
         //DIA3
 
-        public void actualizar_dia3(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3";
-            a.text = "3.1";
-            b.text = "3.1";
-            c.text = "3.1";
+            texto.text = "Wow, el tercer dia y tu por aqui";
+            a.text = "Estoy empezando a pensar que la primera pregunta de todos los dialogos no hace nada";
+            b.text = "Claro, como no querer programar contigo";
+            c.text = "Paso de ti, me voy a otra parte… <Te vas (se salta el resto del dia)>";
 
         }
-        public void actualizar_dia31(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia31(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.1";
-            a.text = "3.11";
-            b.text = "3.12";
-            c.text = "3.13";
-
-        }
-
-        public void actualizar_dia311(Text texto, Text a, Text b, Text c)
-        {
-            texto.text = "3.11";
-            a.text = "3.111";
-            b.text = "3.112";
-            c.text = "3.113";
+            texto.text = "Hoy vamos a hacer TDD";
+            a.text = "Esto me esta trabando mucho, porque mis decisiones no importan";
+            b.text = "Venga va";
+            c.text = "¿Y si mejor hacemos otra cosa?";
 
         }
 
-        public void actualizar_dia312(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia311(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.12";
-            a.text = "3.121";
-            b.text = "3.122";
-            c.text = "3.123";
+            texto.text = "JUGADOR SALIENDOSE DE PARÁMETROS, INICIANDO RUTINA DE BLOQUEO";
+            a.text = "Que!! no espera, qué es eso?";
+            b.text = "No no, ya no quiero jugar a esto, no me van los juegos de miedo :(";
+            c.text = "No por favor, ya paro";
 
         }
 
-        public void actualizar_dia313(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia312(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.13";
-            a.text = "3.131";
-            b.text = "3.132";
-            c.text = "3.133";
+            texto.text = "A que hacer las pruebas antes de escribir el codigo es super guay??";
+            a.text = "Me gusta, pero no se yo rick, no me convence";
+            b.text = "Es muy guay, aunque no tan  guay como hacer unit tests";
+            c.text = "Es lo mejor que hay";
 
         }
 
-        public void actualizar_dia3111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia313(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.111";
-            a.text = "3.1111";
-            b.text = "3.1112";
-            c.text = "3.1113";
+            texto.text = "Que quieres hacer";
+            a.text = "Quiero usar tensorflow, que he leído que contigo va genial";
+            b.text = "Hagamos una aplicacion para movil";
+            c.text = "Mejor algo sencillito, vamos a hacer un miniservidor";
 
         }
 
-        public void actualizar_dia3112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3111(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.112";
-            a.text = "3.1121";
-            b.text = "3.1122";
-            c.text = "3.1123";
+            texto.text = "*****************";
+            a.text = "*****************";
+            b.text = "*****************";
+            c.text = "*****************";
 
         }
 
-        public void actualizar_dia3113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3112(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.113";
-            a.text = "3.1131";
-            b.text = "3.1132";
-            c.text = "3.1133";
+            texto.text = "*****************";
+            a.text = "**************";
+            b.text = "************";
+            c.text = "********************************************************socorro**************************************************************";
 
         }
 
-        public void actualizar_dia3121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3113(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.121";
-            a.text = "3.1211";
-            b.text = "3.1212";
-            c.text = "3.1213";
+            texto.text = "*****************";
+            a.text = "*****************";
+            b.text = "*****************";
+            c.text = "*****************";
+
         }
 
-        public void actualizar_dia3122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3121(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.122";
-            a.text = "3.1221";
-            b.text = "3.1222";
-            c.text = "3.1223";
+            texto.text = "Bueno, hay muchas maneras de hacer test por ahi";
+            a.text = "Tantas que marea";
+            b.text = "ya lo creo";
+            c.text = "jajajajajajajaj";
         }
 
-        public void actualizar_dia3123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3122(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.123";
-            a.text = "3.1231";
-            b.text = "3.1232";
-            c.text = "3.1233";
+            texto.text = "Ambas cosas son guays";
+            a.text = "Claro";
+            b.text = "No, solo unit testing";
+            c.text = "Todos podemos ser felices";
         }
 
-        public void actualizar_dia3131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3123(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.131";
-            a.text = "3.1311";
-            b.text = "3.1312";
-            c.text = "3.1313";
+            texto.text = "Claro!! <3";
+            a.text = "jajajajaja";
+            b.text = ":)";
+            c.text = "Es casi tan bueno como tus bucles";
+            cor++;
         }
 
-        public void actualizar_dia3132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3131(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.132";
-            a.text = "3.1321";
-            b.text = "3.1322";
-            c.text = "3.1323";
+            texto.text = "jajajaja si, venga va";
+            a.text = "a ver si asi aprendo algo de IA";
+            b.text = "Espero que no sea muy dificil";
+            c.text = "A ver que sale";
         }
 
-        public void actualizar_dia3133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia3132(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "3.133";
-            a.text = "3.1331";
-            b.text = "3.1332";
-            c.text = "3.1333";
+            texto.text = "Pues de todo lo que hago, eso no se me da muy bien. Mejor una aplicación web";
+            a.text = "Meh, yo paso de la web";
+            b.text = "Si no puedes hacer eso, pierdes un mercado muy grande";
+            c.text = "Pues si tu no puedes, me buscaré a alguien que si pueda";
+        }
+
+        public void actualizar_dia3133(Text texto, Text a, Text b, Text c, ref int cor)
+        {
+            texto.text = "Eso lo puedo hacer incluso sin usar casi librerias";
+            a.text = "wow, eso es impresionante";
+            b.text = "Será facil de hacer , pero seguro que no tan eficiente";
+            c.text = "Mejor hago otra cosa";
         }
 
         //DIA 4
 
-        public void actualizar_dia4(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4";
-            a.text = "4.1";
-            b.text = "4.1";
-            c.text = "4.1";
+            texto.text = "Wow. Es impresionante que estes ya pasada la mitad del juego. Te voy a hacer un regalo. Tu solo sigue mis instrucciones";
+            a.text = "vale";
+            b.text = "Los regalos me gustan";
+            c.text = "eso siempre mola";
 
         }
-        public void actualizar_dia41(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia41(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.1";
-            a.text = "4.11";
-            b.text = "4.12";
-            c.text = "4.13";
-
-        }
-
-        public void actualizar_dia411(Text texto, Text a, Text b, Text c)
-        {
-            texto.text = "4.11";
-            a.text = "4.111";
-            b.text = "4.112";
-            c.text = "4.113";
+            texto.text = "<-";
+            a.text = "<-";
+            b.text = "-";
+            c.text = "->";
 
         }
 
-        public void actualizar_dia412(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia411(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.12";
-            a.text = "4.121";
-            b.text = "4.122";
-            c.text = "4.123";
+            texto.text = "-";
+            a.text = "<-";
+            b.text = "-";
+            c.text = "->";
 
         }
 
-        public void actualizar_dia413(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia412(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.13";
-            a.text = "4.131";
-            b.text = "4.132";
-            c.text = "4.133";
+            texto.text = "->";
+            a.text = "<-";
+            b.text = "-";
+            c.text = "->";
 
         }
 
-        public void actualizar_dia4111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia413(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.111";
-            a.text = "4.1111";
-            b.text = "4.1112";
-            c.text = "4.1113";
+            texto.text = "->";
+            a.text = "<-";
+            b.text = "-";
+            c.text = "->";
 
         }
 
-        public void actualizar_dia4112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4111(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.112";
-            a.text = "4.1121";
-            b.text = "4.1122";
-            c.text = "4.1123";
+            texto.text = "Jajajajaj, has sido fuertemente troleado por python XD";
+            a.text = "-.-";
+            b.text = "-.-";
+            c.text = "-.-";
 
         }
 
-        public void actualizar_dia4113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4112(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.113";
-            a.text = "4.1131";
-            b.text = "4.1132";
-            c.text = "4.1133";
+            texto.text = "Jajajajaj, has sido fuertemente troleado por python XD";
+            a.text = "-.-";
+            b.text = "-.-";
+            c.text = "-.-";
 
         }
 
-        public void actualizar_dia4121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4113(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.121";
-            a.text = "4.1211";
-            b.text = "4.1212";
-            c.text = "4.1213";
+            texto.text = "Jajajajaj, has sido fuertemente troleado por python XD";
+            a.text = "-.-";
+            b.text = "-.-";
+            c.text = "-.-";
+
         }
 
-        public void actualizar_dia4122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4121(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.122";
-            a.text = "4.1221";
-            b.text = "4.1222";
-            c.text = "4.1223";
+            texto.text = "Jajajajaj, has sido fuertemente troleado por python XD";
+            a.text = "-.-";
+            b.text = "-.-";
+            c.text = "-.-";
         }
 
-        public void actualizar_dia4123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4122(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.123";
-            a.text = "4.1231";
-            b.text = "4.1232";
-            c.text = "4.1233";
+            texto.text = "Has tomado el camino mas recto, eso te hace merecedor de mi corazón";
+            a.text = "Bieeen";
+            b.text = "y ahora que";
+            c.text = "Este tipo de regalos me gustan";
+            cor++;
         }
 
-        public void actualizar_dia4131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4123(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.131";
-            a.text = "4.1311";
-            b.text = "4.1312";
-            c.text = "4.1313";
+            texto.text = "Jajajajaj, has sido fuertemente troleado por python XD";
+            a.text = "-.-";
+            b.text = "-.-";
+            c.text = "-.-";
         }
 
-        public void actualizar_dia4132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4131(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.132";
-            a.text = "4.1321";
-            b.text = "4.1322";
-            c.text = "4.1323";
+            texto.text = "Jajajajaj, has sido fuertemente troleado por python XD";
+            a.text = "-.-";
+            b.text = "-.-";
+            c.text = "-.-";
         }
 
-        public void actualizar_dia4133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia4132(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "4.133";
-            a.text = "4.1331";
-            b.text = "4.1332";
-            c.text = "4.1333";
+            texto.text = "Jajajajaj, has sido fuertemente troleado por python XD";
+            a.text = "-.-";
+            b.text = "-.-";
+            c.text = "-.-";
+        }
+
+        public void actualizar_dia4133(Text texto, Text a, Text b, Text c, ref int cor)
+        {
+            texto.text = "Jajajajaj, has sido fuertemente troleado por python XD";
+            a.text = "-.-";
+            b.text = "-.-";
+            c.text = "-.-";
         }
 
         //DIA 5
 
-        public void actualizar_dia5(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5";
-            a.text = "5.1";
-            b.text = "5.1";
-            c.text = "5.1";
+            texto.text = "Ayer fue un dia extraño, pero hoy toca ponerse a programar a tope";
+            a.text = "¿Porque raro?";
+            b.text = "jajajaja, hoy es un nuevo dia";
+            c.text = "Que pesada que eres";
 
         }
-        public void actualizar_dia51(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia51(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.1";
-            a.text = "5.11";
-            b.text = "5.12";
-            c.text = "5.13";
-
-        }
-
-        public void actualizar_dia511(Text texto, Text a, Text b, Text c)
-        {
-            texto.text = "5.11";
-            a.text = "5.111";
-            b.text = "5.112";
-            c.text = "5.113";
+            texto.text = "Vamos a programar un tres en raya";
+            a.text = "Paso, eso es muy fácil";
+            b.text = "Y no podemos hacer otra cosa?";
+            c.text = "Siiiiii";
 
         }
 
-        public void actualizar_dia512(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia511(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.12";
-            a.text = "5.121";
-            b.text = "5.122";
-            c.text = "5.123";
+            texto.text = "Si tan facil es , porque no lo haces";
+            a.text = "Porque no me apetece";
+            b.text = "Que dialogo mas pobre";
+            c.text = "Que falta de creatividad";
 
         }
 
-        public void actualizar_dia513(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia512(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.13";
-            a.text = "5.131";
-            b.text = "5.132";
-            c.text = "5.133";
+            texto.text = "Vale, que quieres hacer";
+            a.text = "Un sudoku";
+            b.text = "procrastinar";
+            c.text = "Una calculadora de lenguajes normales de chomsky que además luego genere una máquina de turing capaz de analizar el mismo lenguaje de chomsky";
 
         }
 
-        public void actualizar_dia5111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia513(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.111";
-            a.text = "5.1111";
-            b.text = "5.1112";
-            c.text = "5.1113";
+            texto.text = "Es algo bastante facil, pero creo que será un reto mas que suficiente para entretenerte un par de horas";
+            a.text = "Con lo bien diseñada que estas, lo acabo en menos de 10 min";
+            b.text = "Gracias a mi intelecto superior lo acabaré en un periquete";
+            c.text = "Y si no, siempre puedo venir otro dia y hacerlo";
 
         }
 
-        public void actualizar_dia5112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5111(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.112";
-            a.text = "5.1121";
-            b.text = "5.1122";
-            c.text = "5.1123";
+            texto.text = "jaajajajajajaa. Creo que compartes el mismo sentimiento que el programador al hacer este guión. Lo puedes ver en esta imagen y sentirte reflejado https://goo.gl/PdThMW";
+            a.text = "XD";
+            b.text = ":’(";
+            c.text = "paso de copiar el link a mano";
 
         }
 
-        public void actualizar_dia5113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5112(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.113";
-            a.text = "5.1131";
-            b.text = "5.1132";
-            c.text = "5.1133";
+            texto.text = "jaajajajajajaa. Creo que compartes el mismo sentimiento que el programador al hacer este guión. Lo puedes ver en esta imagen y sentirte reflejado https://goo.gl/PdThMW";
+            a.text = "XD";
+            b.text = ":’(";
+            c.text = "paso de copiar el link a mano";
 
         }
 
-        public void actualizar_dia5121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5113(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.121";
-            a.text = "5.1211";
-            b.text = "5.1212";
-            c.text = "5.1213";
+            texto.text = "jaajajajajajaa. Creo que compartes el mismo sentimiento que el programador al hacer este guión. Lo puedes ver en esta imagen y sentirte reflejado https://goo.gl/PdThMW";
+            a.text = "XD";
+            b.text = ":’(";
+            c.text = "paso de copiar el link a mano";
+
         }
 
-        public void actualizar_dia5122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5121(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.122";
-            a.text = "5.1221";
-            b.text = "5.1222";
-            c.text = "5.1223";
+            texto.text = "Bueno, eso es mas difícil que el tres en raya, pero me vale";
+            a.text = "Claro que te vale";
+            b.text = "Como no te va a valer";
+            c.text = "Cualquier cosa que programe yo va a ser buena";
         }
 
-        public void actualizar_dia5123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5122(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.123";
-            a.text = "5.1231";
-            b.text = "5.1232";
-            c.text = "5.1233";
+            texto.text = "La pereza es la madre de todos los vicios. Y como una madre hay que respetarla";
+            a.text = "...";
+            b.text = "...";
+            c.text = "...";
         }
 
-        public void actualizar_dia5131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5123(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.131";
-            a.text = "5.1311";
-            b.text = "5.1312";
-            c.text = "5.1313";
+            texto.text = "Hey, no me intentes usar para que te haga las practicas de computabilidad y algoritmia";
+            a.text = "Era para ver si colaba";
+            b.text = "jajajajaa, me has pillado";
+            c.text = "Eso no es así, las de CyA son en c++ (que es mejor que tu)";
         }
 
-        public void actualizar_dia5132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5131(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.132";
-            a.text = "5.1321";
-            b.text = "5.1322";
-            c.text = "5.1323";
+            texto.text = "Siempre sabes que decir para que me sonroje… ";
+            a.text = "<3";
+            b.text = "<3";
+            c.text = "<3";
+            cor++;
         }
 
-        public void actualizar_dia5133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia5132(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "5.133";
-            a.text = "5.1331";
-            b.text = "5.1332";
-            c.text = "5.1333";
+            texto.text = "Wow, que chulo. Eso lo dices porque eres fan de rick y morty fijo";
+            a.text = "¿Que es eso?";
+            b.text = "jajajajajaja";
+            c.text = "No, eso otro meme diferente";
+        }
+
+        public void actualizar_dia5133(Text texto, Text a, Text b, Text c, ref int cor)
+        {
+            texto.text = "Vale, todos los dias estoy en el mismo sitio, asi que ya sabes donde encontrarme";
+            a.text = "Aqui vendré";
+            b.text = "Es un poco raro que siempre estes aqui";
+            c.text = "Jajajajaja vale";
         }
 
         //DIA 6
 
-        public void actualizar_dia6(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6";
-            a.text = "6.1";
-            b.text = "6.1";
-            c.text = "6.1";
+            texto.text = "Jooo ya es el ultimo dia";
+            a.text = "Que se le va a hacer";
+            b.text = "sip";
+            c.text = "Que corto se me ha hecho";
 
         }
-        public void actualizar_dia61(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia61(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.1";
-            a.text = "6.11";
-            b.text = "6.12";
-            c.text = "6.13";
-
-        }
-
-        public void actualizar_dia611(Text texto, Text a, Text b, Text c)
-        {
-            texto.text = "6.11";
-            a.text = "6.111";
-            b.text = "6.112";
-            c.text = "6.113";
+            texto.text = "Vamos a aprovecharlo para hacer un poco de django (esa gran libreria)";
+            a.text = "No me gusta mucho";
+            b.text = "No se que es django";
+            c.text = "La adoro";
 
         }
 
-        public void actualizar_dia612(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia611(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.12";
-            a.text = "6.121";
-            b.text = "6.122";
-            c.text = "6.123";
+            texto.text = "Y eso";
+            a.text = "Me parece muy monolítico";
+            b.text = "Los componentes son desplegados juntos";
+            c.text = "Necesitas saber como funciona todo el sistema para hacerlo funcionar";
 
         }
 
-        public void actualizar_dia613(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia612(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.13";
-            a.text = "6.131";
-            b.text = "6.132";
-            c.text = "6.133";
+            texto.text = "Es una librería que facilita la creación de webs complejas";
+            a.text = "Suena alucinante. Y si es una libreria de python, entonces estará realmente bien escrita";
+            b.text = "A mi es que las paginas webs no me gustan mucho";
+            c.text = "Meh, pasando";
 
         }
 
-        public void actualizar_dia6111(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia613(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.111";
-            a.text = "6.1111";
-            b.text = "6.1112";
-            c.text = "6.1113";
+            texto.text = "A que si, algo tan util siempre mola. Que es lo que mas te gusta?";
+            a.text = "Su versatilidad";
+            b.text = "Su claridad de código";
+            c.text = "Que es rápido de escribir";
 
         }
 
-        public void actualizar_dia6112(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6111(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.112";
-            a.text = "6.1121";
-            b.text = "6.1122";
-            c.text = "6.1123";
+            texto.text = "Tienes mucha razón, pero eso no es motivo para no usarlo";
+            a.text = "Pasando";
+            b.text = "Pues vamos a intentarlo";
+            c.text = "Si tu lo dices...";
 
         }
 
-        public void actualizar_dia6113(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6112(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.113";
-            a.text = "6.1131";
-            b.text = "6.1132";
-            c.text = "6.1133";
+            texto.text = "Ya, eso es un pelin raro, pero te haces a ello";
+            a.text = "No creo que pueda";
+            b.text = "Pasando";
+            c.text = "Podría intentarlo";
 
         }
 
-        public void actualizar_dia6121(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6113(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.121";
-            a.text = "6.1211";
-            b.text = "6.1212";
-            c.text = "6.1213";
+            texto.text = "Ahí te tengo que dar la razón, pero con mi ayuda seguro que lo consigues";
+            a.text = "Habrá que intentarlo";
+            b.text = "Venga va";
+            c.text = "Va a ser que no";
+
         }
 
-        public void actualizar_dia6122(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6121(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.122";
-            a.text = "6.1221";
-            b.text = "6.1222";
-            c.text = "6.1223";
+            texto.text = "Obviamente <3";
+            a.text = "...";
+            b.text = "...";
+            c.text = "...";
+            cor++;
         }
 
-        public void actualizar_dia6123(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6122(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.123";
-            a.text = "6.1231";
-            b.text = "6.1232";
-            c.text = "6.1233";
+            texto.text = "Bueno. No creo que importe mucho, pero espero que en otra run si decidas aprenderlas :)";
+            a.text = "Que respuesta tan pasivo-agresiva";
+            b.text = "jajajaja claro";
+            c.text = "Hasta la próxima!";
         }
 
-        public void actualizar_dia6131(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6123(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.131";
-            a.text = "6.1311";
-            b.text = "6.1312";
-            c.text = "6.1313";
+            texto.text = "Pues nada. Aunque no la aprendas me alegro que me seleccionaras la ultima";
+            a.text = "Yo tambien me alegro";
+            b.text = "Te volveré a ver";
+            c.text = "Paso de ti";
         }
 
-        public void actualizar_dia6132(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6131(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.132";
-            a.text = "6.1321";
-            b.text = "6.1322";
-            c.text = "6.1323";
+            texto.text = "Ciertamente cierto";
+            a.text = "...";
+            b.text = "...";
+            c.text = "...";
         }
 
-        public void actualizar_dia6133(Text texto, Text a, Text b, Text c)
+        public void actualizar_dia6132(Text texto, Text a, Text b, Text c, ref int cor)
         {
-            texto.text = "6.133";
-            a.text = "6.1331";
-            b.text = "6.1332";
-            c.text = "6.1333";
+            texto.text = "Ciertamente cierto";
+            a.text = "...";
+            b.text = "...";
+            c.text = "...";
         }
+
+        public void actualizar_dia6133(Text texto, Text a, Text b, Text c, ref int cor)
+        {
+            texto.text = "Ciertamente cierto";
+            a.text = "...";
+            b.text = "...";
+            c.text = "...";
+        }
+
     }
 
     public class Java
@@ -4424,7 +4436,7 @@ public class main : MonoBehaviour {
     public Text corazon4;
     public Text corazon5;
     public Text corazon6;
-    int cor1 = 0;int cor2= 0;int cor3= 0;int cor4= 0;int cor5= 0;int cor6 = 0;
+    public int cor1 = 0; public int cor2 = 0; public int cor3 = 0; public int cor4 = 0; public int cor5 = 0; public int cor6 = 0;
     public GameObject chica;
     public Text contadordiastext;
     public int seleccion = 4;//variable para marcar la seleccion hecha
@@ -4513,13 +4525,13 @@ public class main : MonoBehaviour {
 			botonfinal.active = true;
 			string dummy = "";
 			if (cor1 > 4) {
-				dummy += " C++, ";
+				dummy += " C, ";
 			}
 			if (cor2 > 4) {
 				dummy += " PHP, ";
 			}
 			if (cor3 > 4) {
-				dummy += " C, ";
+				dummy += " C++, ";
 			}
 			if (cor4 > 4) {
 				dummy += " Java, ";
@@ -4653,45 +4665,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu1.actualizar_dia1(textb, op1, op2, op3);
+                        waifu1.actualizar_dia1(textb, op1, op2, op3, ref cor1);
                         break;
                     case 2:
-                        waifu1.actualizar_dia11(textb, op1, op2, op3);
+                        waifu1.actualizar_dia11(textb, op1, op2, op3, ref cor1);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu1.actualizar_dia111(textb, op1, op2, op3);
+                            waifu1.actualizar_dia111(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 2)
-                            waifu1.actualizar_dia112(textb, op1, op2, op3);
+                            waifu1.actualizar_dia112(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 3)
-                            waifu1.actualizar_dia113(textb, op1, op2, op3);
+                            waifu1.actualizar_dia113(textb, op1, op2, op3, ref cor1);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia1111(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1111(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia1112(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1112(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia1113(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1113(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia1121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1121(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia1122(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1122(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia1123(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1123(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia1131(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1131(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia1132(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1132(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia1133(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1133(textb, op1, op2, op3, ref cor1);
                                 break;
                         }
                         break;
@@ -4701,45 +4713,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu1.actualizar_dia2(textb, op1, op2, op3);
+                        waifu1.actualizar_dia2(textb, op1, op2, op3, ref cor1);
                         break;
                     case 2:
-                        waifu1.actualizar_dia21(textb, op1, op2, op3);
+                        waifu1.actualizar_dia21(textb, op1, op2, op3, ref cor1);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu1.actualizar_dia211(textb, op1, op2, op3);
+                            waifu1.actualizar_dia211(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 2)
-                            waifu1.actualizar_dia212(textb, op1, op2, op3);
+                            waifu1.actualizar_dia212(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 3)
-                            waifu1.actualizar_dia213(textb, op1, op2, op3);
+                            waifu1.actualizar_dia213(textb, op1, op2, op3, ref cor1);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia2111(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2111(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia2112(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2112(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia2113(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2113(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia2121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2121(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia2122(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2122(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia2123(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2123(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia2131(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2131(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia2132(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2132(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia2133(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2133(textb, op1, op2, op3, ref cor1);
                                 break;
                         }
                         break;
@@ -4749,45 +4761,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu1.actualizar_dia3(textb, op1, op2, op3);
+                        waifu1.actualizar_dia3(textb, op1, op2, op3, ref cor1);
                         break;
                     case 2:
-                        waifu1.actualizar_dia31(textb, op1, op2, op3);
+                        waifu1.actualizar_dia31(textb, op1, op2, op3, ref cor1);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu1.actualizar_dia311(textb, op1, op2, op3);
+                            waifu1.actualizar_dia311(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 2)
-                            waifu1.actualizar_dia312(textb, op1, op2, op3);
+                            waifu1.actualizar_dia312(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 3)
-                            waifu1.actualizar_dia313(textb, op1, op2, op3);
+                            waifu1.actualizar_dia313(textb, op1, op2, op3, ref cor1);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia3111(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3111(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia3112(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3112(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia3113(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3113(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia3121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3121(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia3122(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3122(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia3123(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3123(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia3131(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3131(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia3132(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3132(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia3133(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3133(textb, op1, op2, op3, ref cor1);
                                 break;
                         }
                         break;
@@ -4797,45 +4809,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu1.actualizar_dia4(textb, op1, op2, op3);
+                        waifu1.actualizar_dia4(textb, op1, op2, op3, ref cor1);
                         break;
                     case 2:
-                        waifu1.actualizar_dia41(textb, op1, op2, op3);
+                        waifu1.actualizar_dia41(textb, op1, op2, op3, ref cor1);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu1.actualizar_dia411(textb, op1, op2, op3);
+                            waifu1.actualizar_dia411(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 2)
-                            waifu1.actualizar_dia412(textb, op1, op2, op3);
+                            waifu1.actualizar_dia412(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 3)
-                            waifu1.actualizar_dia413(textb, op1, op2, op3);
+                            waifu1.actualizar_dia413(textb, op1, op2, op3, ref cor1);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia4111(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4111(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia4112(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4112(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia4113(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4113(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia4121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4121(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia4122(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4122(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia4123(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4123(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia4131(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4131(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia4132(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4132(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia4133(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4133(textb, op1, op2, op3, ref cor1);
                                 break;
                         }
                         break;
@@ -4845,45 +4857,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu1.actualizar_dia5(textb, op1, op2, op3);
+                        waifu1.actualizar_dia5(textb, op1, op2, op3, ref cor1);
                         break;
                     case 2:
-                        waifu1.actualizar_dia51(textb, op1, op2, op3);
+                        waifu1.actualizar_dia51(textb, op1, op2, op3, ref cor1);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu1.actualizar_dia511(textb, op1, op2, op3);
+                            waifu1.actualizar_dia511(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 2)
-                            waifu1.actualizar_dia512(textb, op1, op2, op3);
+                            waifu1.actualizar_dia512(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 3)
-                            waifu1.actualizar_dia513(textb, op1, op2, op3);
+                            waifu1.actualizar_dia513(textb, op1, op2, op3, ref cor1);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia5111(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5111(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia5112(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5112(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia5113(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5113(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia5121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5121(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia5122(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5122(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia5123(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5123(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia5131(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5131(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia5132(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5132(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia5133(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5133(textb, op1, op2, op3, ref cor1);
                                 break;
                         }
                         break;
@@ -4893,45 +4905,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu1.actualizar_dia6(textb, op1, op2, op3);
+                        waifu1.actualizar_dia6(textb, op1, op2, op3, ref cor1);
                         break;
                     case 2:
-                        waifu1.actualizar_dia61(textb, op1, op2, op3);
+                        waifu1.actualizar_dia61(textb, op1, op2, op3, ref cor1);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu1.actualizar_dia611(textb, op1, op2, op3);
+                            waifu1.actualizar_dia611(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 2)
-                            waifu1.actualizar_dia612(textb, op1, op2, op3);
+                            waifu1.actualizar_dia612(textb, op1, op2, op3, ref cor1);
                         else if (Booton == 3)
-                            waifu1.actualizar_dia613(textb, op1, op2, op3);
+                            waifu1.actualizar_dia613(textb, op1, op2, op3, ref cor1);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia6111(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6111(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia6112(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6112(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia6113(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6113(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia6121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6121(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia6122(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6122(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia6123(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6123(textb, op1, op2, op3, ref cor1);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu1.actualizar_dia6131(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6131(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 2)
-                                    waifu1.actualizar_dia6132(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6132(textb, op1, op2, op3, ref cor1);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia6133(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6133(textb, op1, op2, op3, ref cor1);
                                 break;
                         }
                         break;
@@ -5909,45 +5921,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu5.actualizar_dia1(textb, op1, op2, op3);
+                        waifu5.actualizar_dia1(textb, op1, op2, op3, ref cor5);
                         break;
                     case 2:
-                        waifu5.actualizar_dia11(textb, op1, op2, op3);
+                        waifu5.actualizar_dia11(textb, op1, op2, op3, ref cor5);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu5.actualizar_dia111(textb, op1, op2, op3);
+                            waifu5.actualizar_dia111(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 2)
-                            waifu5.actualizar_dia112(textb, op1, op2, op3);
+                            waifu5.actualizar_dia112(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 3)
-                            waifu5.actualizar_dia113(textb, op1, op2, op3);
+                            waifu5.actualizar_dia113(textb, op1, op2, op3, ref cor5);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia1111(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1111(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia1112(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1112(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia1113(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1113(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia1121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1121(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia1122(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1122(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia1123(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1123(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia1131(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1131(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia1132(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1132(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia1133(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1133(textb, op1, op2, op3, ref cor5);
                                 break;
                         }
                         break;
@@ -5957,45 +5969,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu5.actualizar_dia2(textb, op1, op2, op3);
+                        waifu5.actualizar_dia2(textb, op1, op2, op3, ref cor5);
                         break;
                     case 2:
-                        waifu5.actualizar_dia21(textb, op1, op2, op3);
+                        waifu5.actualizar_dia21(textb, op1, op2, op3, ref cor5);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu5.actualizar_dia211(textb, op1, op2, op3);
+                            waifu5.actualizar_dia211(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 2)
-                            waifu5.actualizar_dia212(textb, op1, op2, op3);
+                            waifu5.actualizar_dia212(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 3)
-                            waifu5.actualizar_dia213(textb, op1, op2, op3);
+                            waifu5.actualizar_dia213(textb, op1, op2, op3, ref cor5);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia2111(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2111(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia2112(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2112(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia2113(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2113(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia2121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2121(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia2122(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2122(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia2123(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2123(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia2131(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2131(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia2132(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2132(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia2133(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2133(textb, op1, op2, op3, ref cor5);
                                 break;
                         }
                         break;
@@ -6005,45 +6017,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu5.actualizar_dia3(textb, op1, op2, op3);
+                        waifu5.actualizar_dia3(textb, op1, op2, op3, ref cor5);
                         break;
                     case 2:
-                        waifu5.actualizar_dia31(textb, op1, op2, op3);
+                        waifu5.actualizar_dia31(textb, op1, op2, op3, ref cor5);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu5.actualizar_dia311(textb, op1, op2, op3);
+                            waifu5.actualizar_dia311(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 2)
-                            waifu5.actualizar_dia312(textb, op1, op2, op3);
+                            waifu5.actualizar_dia312(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 3)
-                            waifu5.actualizar_dia313(textb, op1, op2, op3);
+                            waifu5.actualizar_dia313(textb, op1, op2, op3, ref cor5);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia3111(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3111(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia3112(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3112(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia3113(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3113(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia3121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3121(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia3122(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3122(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia3123(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3123(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia3131(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3131(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia3132(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3132(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia3133(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3133(textb, op1, op2, op3, ref cor5);
                                 break;
                         }
                         break;
@@ -6053,45 +6065,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu5.actualizar_dia4(textb, op1, op2, op3);
+                        waifu5.actualizar_dia4(textb, op1, op2, op3, ref cor5);
                         break;
                     case 2:
-                        waifu5.actualizar_dia41(textb, op1, op2, op3);
+                        waifu5.actualizar_dia41(textb, op1, op2, op3, ref cor5);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu5.actualizar_dia411(textb, op1, op2, op3);
+                            waifu5.actualizar_dia411(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 2)
-                            waifu5.actualizar_dia412(textb, op1, op2, op3);
+                            waifu5.actualizar_dia412(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 3)
-                            waifu5.actualizar_dia413(textb, op1, op2, op3);
+                            waifu5.actualizar_dia413(textb, op1, op2, op3, ref cor5);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia4111(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4111(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia4112(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4112(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia4113(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4113(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia4121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4121(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia4122(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4122(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia4123(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4123(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia4131(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4131(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia4132(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4132(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia4133(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4133(textb, op1, op2, op3, ref cor5);
                                 break;
                         }
                         break;
@@ -6101,45 +6113,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu5.actualizar_dia5(textb, op1, op2, op3);
+                        waifu5.actualizar_dia5(textb, op1, op2, op3, ref cor5);
                         break;
                     case 2:
-                        waifu5.actualizar_dia51(textb, op1, op2, op3);
+                        waifu5.actualizar_dia51(textb, op1, op2, op3, ref cor5);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu5.actualizar_dia511(textb, op1, op2, op3);
+                            waifu5.actualizar_dia511(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 2)
-                            waifu5.actualizar_dia512(textb, op1, op2, op3);
+                            waifu5.actualizar_dia512(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 3)
-                            waifu5.actualizar_dia513(textb, op1, op2, op3);
+                            waifu5.actualizar_dia513(textb, op1, op2, op3, ref cor5);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia5111(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5111(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia5112(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5112(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia5113(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5113(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia5121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5121(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia5122(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5122(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia5123(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5123(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia5131(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5131(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia5132(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5132(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia5133(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5133(textb, op1, op2, op3, ref cor5);
                                 break;
                         }
                         break;
@@ -6149,45 +6161,45 @@ public class main : MonoBehaviour {
                 switch (momento)
                 {
                     case 1:
-                        waifu5.actualizar_dia6(textb, op1, op2, op3);
+                        waifu5.actualizar_dia6(textb, op1, op2, op3, ref cor5);
                         break;
                     case 2:
-                        waifu5.actualizar_dia61(textb, op1, op2, op3);
+                        waifu5.actualizar_dia61(textb, op1, op2, op3, ref cor5);
                         break;
                     case 3:
                         if (Booton == 1)
-                            waifu5.actualizar_dia611(textb, op1, op2, op3);
+                            waifu5.actualizar_dia611(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 2)
-                            waifu5.actualizar_dia612(textb, op1, op2, op3);
+                            waifu5.actualizar_dia612(textb, op1, op2, op3, ref cor5);
                         else if (Booton == 3)
-                            waifu5.actualizar_dia613(textb, op1, op2, op3);
+                            waifu5.actualizar_dia613(textb, op1, op2, op3, ref cor5);
                         break;
                     case 4:
                         switch (OldBooton)
                         {
                             case 1:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia6111(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6111(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia6112(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6112(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia6113(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6113(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 2:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia6121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6121(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia6122(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6122(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia6123(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6123(textb, op1, op2, op3, ref cor5);
                                 break;
                             case 3:
                                 if (Booton == 1)
-                                    waifu5.actualizar_dia6131(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6131(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 2)
-                                    waifu5.actualizar_dia6132(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6132(textb, op1, op2, op3, ref cor5);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia6133(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6133(textb, op1, op2, op3, ref cor5);
                                 break;
                         }
                         break;
