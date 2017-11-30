@@ -4648,7 +4648,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu1.actualizar_dia1122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia1121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia1123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -4696,7 +4696,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu1.actualizar_dia2122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia2121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia2123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -4744,7 +4744,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu1.actualizar_dia3122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia3121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia3123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -4792,7 +4792,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu1.actualizar_dia4122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia4121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia4123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -4840,7 +4840,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu1.actualizar_dia5122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia5121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia5123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -4888,7 +4888,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu1.actualizar_dia6122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu1.actualizar_dia6121(textb, op1, op2, op3);
+                                    waifu1.actualizar_dia6123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -4962,7 +4962,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu2.actualizar_dia1122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu2.actualizar_dia1121(textb, op1, op2, op3);
+                                    waifu2.actualizar_dia1123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5010,7 +5010,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu2.actualizar_dia2122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu2.actualizar_dia2121(textb, op1, op2, op3);
+                                    waifu2.actualizar_dia2123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5058,7 +5058,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu2.actualizar_dia3122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu2.actualizar_dia3121(textb, op1, op2, op3);
+                                    waifu2.actualizar_dia3123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5106,7 +5106,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu2.actualizar_dia4122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu2.actualizar_dia4121(textb, op1, op2, op3);
+                                    waifu2.actualizar_dia4123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5154,7 +5154,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu2.actualizar_dia5122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu2.actualizar_dia5121(textb, op1, op2, op3);
+                                    waifu2.actualizar_dia5123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5202,7 +5202,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu2.actualizar_dia6122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu2.actualizar_dia6121(textb, op1, op2, op3);
+                                    waifu2.actualizar_dia6123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5276,7 +5276,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu3.actualizar_dia1122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu3.actualizar_dia1121(textb, op1, op2, op3);
+                                    waifu3.actualizar_dia1123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5324,7 +5324,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu3.actualizar_dia2122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu3.actualizar_dia2121(textb, op1, op2, op3);
+                                    waifu3.actualizar_dia2123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5372,7 +5372,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu3.actualizar_dia3122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu3.actualizar_dia3121(textb, op1, op2, op3);
+                                    waifu3.actualizar_dia3123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5420,7 +5420,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu3.actualizar_dia4122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu3.actualizar_dia4121(textb, op1, op2, op3);
+                                    waifu3.actualizar_dia4123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5468,7 +5468,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu3.actualizar_dia5122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu3.actualizar_dia5121(textb, op1, op2, op3);
+                                    waifu3.actualizar_dia5123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5516,7 +5516,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu3.actualizar_dia6122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu3.actualizar_dia6121(textb, op1, op2, op3);
+                                    waifu3.actualizar_dia6123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5590,7 +5590,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu4.actualizar_dia1122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu4.actualizar_dia1121(textb, op1, op2, op3);
+                                    waifu4.actualizar_dia1123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5638,7 +5638,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu4.actualizar_dia2122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu4.actualizar_dia2121(textb, op1, op2, op3);
+                                    waifu4.actualizar_dia2123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5686,7 +5686,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu4.actualizar_dia3122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu4.actualizar_dia3121(textb, op1, op2, op3);
+                                    waifu4.actualizar_dia3123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5734,7 +5734,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu4.actualizar_dia4122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu4.actualizar_dia4121(textb, op1, op2, op3);
+                                    waifu4.actualizar_dia4123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5782,7 +5782,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu4.actualizar_dia5122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu4.actualizar_dia5121(textb, op1, op2, op3);
+                                    waifu4.actualizar_dia5123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5830,7 +5830,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu4.actualizar_dia6122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu4.actualizar_dia6121(textb, op1, op2, op3);
+                                    waifu4.actualizar_dia6123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5904,7 +5904,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu5.actualizar_dia1122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia1121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia1123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -5952,7 +5952,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu5.actualizar_dia2122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia2121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia2123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -6000,7 +6000,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu5.actualizar_dia3122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia3121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia3123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -6048,7 +6048,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu5.actualizar_dia4122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia4121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia4123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -6096,7 +6096,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu5.actualizar_dia5122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia5121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia5123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)
@@ -6144,7 +6144,7 @@ public class main : MonoBehaviour {
                                 else if (Booton == 2)
                                     waifu5.actualizar_dia6122(textb, op1, op2, op3);
                                 else if (Booton == 3)
-                                    waifu5.actualizar_dia6121(textb, op1, op2, op3);
+                                    waifu5.actualizar_dia6123(textb, op1, op2, op3);
                                 break;
                             case 3:
                                 if (Booton == 1)

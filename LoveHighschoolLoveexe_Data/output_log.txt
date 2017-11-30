@@ -1,35 +1,28 @@
-Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
+Initialize engine version: 5.6.3f1 (d3101c3b8468)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
     Vendor:   Intel
-    VRAM:     1792 MB
-    Driver:   10.18.10.4358
+    VRAM:     2111 MB
+    Driver:   20.19.15.4642
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.315 seconds
-Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\migue\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\System.dll (this message is harmless)
-desktop: 1366x768 60Hz; virtual: 3286x1080 at 0,0
+Platform assembly: C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.020 seconds
+Platform assembly: C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\pablo\Documents\GitHub\LoveHighschoolLoveexe\LoveHighschoolLoveexe_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.868760 ms
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.708205 ms
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 275.
-Total: 2.154847 ms (FindLiveObjects: 0.039342 ms CreateObjectMapping: 0.026940 ms MarkObjects: 0.232632 ms  DeleteObjects: 1.854648 ms)
-
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 16fc -> priority: 1 
+UnloadTime: 4.276971 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 32e8 -> priority: 1 
+  Thread -> id: 46c -> priority: 1 
