@@ -2775,121 +2775,121 @@ public class main : MonoBehaviour {
 
         public void actualizar_dia6(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6";
-            a.text = "6.1";
-            b.text = "6.1";
-            c.text = "6.1";
+            texto.text = "Buenos días. Bienvenido a la cafetería Oracle";
+            a.text = "Bonito nombre";
+            b.text = "...Mejor me siento";
+            c.text = "Espero que por eso me pongas una buena taza de cafe";
 
         }
         public void actualizar_dia61(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.1";
-            a.text = "6.11";
-            b.text = "6.12";
-            c.text = "6.13";
+            texto.text = " Llegados a este punto, ¿No te está taladrando la mente la musica?";
+            a.text = "Pues un poco si";
+            b.text = "La verdad es que ni me habia dado cuenta";
+            c.text = "Me gustaría que tomases nota";
 
         }
 
         public void actualizar_dia611(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.11";
-            a.text = "6.111";
-            b.text = "6.112";
-            c.text = "6.113";
+            texto.text = "La verdad es que los que la pusieron tienen bastante mal gusto. Pero no podemos hacer nada por ahora";
+            a.text = "Yo cerraría el juego";
+            b.text = "Me está entrando cáncer";
+            c.text = "Dame mi café";
 
         }
 
         public void actualizar_dia612(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.12";
-            a.text = "6.121";
-            b.text = "6.122";
-            c.text = "6.123";
+            texto.text = "¿En serio? Deberías ir al médico,... Por si acaso";
+            a.text = "Yo sabré lo que me hago";
+            b.text = "No creo, me está gustando";
+            c.text = "Da igual, ponme un café";
 
         }
 
         public void actualizar_dia613(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.13";
-            a.text = "6.131";
-            b.text = "6.132";
-            c.text = "6.133";
+            texto.text = "Cierto, disculpa mis modales. ¿Que te sirvo?";
+            a.text = "Ponme un cafe de Java";
+            b.text = "Ponme un colacao";
+            c.text = "Ponme un leche y leche";
 
         }
 
         public void actualizar_dia6111(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.111";
-            a.text = "6.1111";
-            b.text = "6.1112";
-            c.text = "6.1113";
+            texto.text = "Por favor, no hagas eso, te regalo un café Java";
+            a.text = "Que facil ha sido eso";
+            b.text = "Aun no es navidad";
+            c.text = "¿Es mi cumpleaños?";
 
         }
 
         public void actualizar_dia6112(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.112";
-            a.text = "6.1121";
-            b.text = "6.1122";
-            c.text = "6.1123";
+            texto.text = "Ánimo, ya queda poco";
+            a.text = "¡Muchas gracias!";
+            b.text = "Quiero acabar este sufirmiento cuanto antes";
+            c.text = "No quiero que acabe";
 
         }
 
         public void actualizar_dia6113(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.113";
-            a.text = "6.1131";
-            b.text = "6.1132";
-            c.text = "6.1133";
+            texto.text = "Dame un momentito y enseguida te lo traigo";
+            a.text = "Muchas gracias";
+            b.text = "Date prisa";
+            c.text = "Tengo ganas de probarlo";
 
         }
 
         public void actualizar_dia6121(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.121";
-            a.text = "6.1211";
-            b.text = "6.1212";
-            c.text = "6.1213";
+            texto.text = "Que antipático";
+            a.text = "Lo siento, no me compila el código";
+            b.text = "Dame un café, lo necesito";
+            c.text = "Quizás me pasé ";
         }
 
         public void actualizar_dia6122(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.122";
-            a.text = "6.1221";
-            b.text = "6.1222";
-            c.text = "6.1223";
+            texto.text = "Me sorprendes, eres el elegido";
+            a.text = "Creo que ves demasiado cine";
+            b.text = "¿El que traerá el equilibrio a la fuerza?";
+            c.text = "¿Soy Neo?";
         }
 
         public void actualizar_dia6123(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.123";
-            a.text = "6.1231";
-            b.text = "6.1232";
-            c.text = "6.1233";
+            texto.text = "Dame un momentito y enseguida te lo traigo";
+            a.text = "Muchas gracias";
+            b.text = "Date prisa";
+            c.text = "Tengo ganas de probarlo";
         }
 
         public void actualizar_dia6131(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.131";
-            a.text = "6.1311";
-            b.text = "6.1312";
-            c.text = "6.1313";
+            texto.text = "Te pondré una taza grande porque me caes bien";
+            a.text = "Que facil ha sido eso";
+            b.text = "Aun no es navidad";
+            c.text = "¿Es mi cumpleaños?";
         }
 
         public void actualizar_dia6132(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.132";
-            a.text = "6.1321";
-            b.text = "6.1322";
-            c.text = "6.1323";
+            texto.text = "Solo tenemos Nesquik";
+            a.text = "NO PUEDE SER";
+            b.text = "Que desgraciado soy";
+            c.text = "Eres de las mías #TeamNesquick";
         }
 
         public void actualizar_dia6133(Text texto, Text a, Text b, Text c)
         {
-            texto.text = "6.133";
-            a.text = "6.1331";
-            b.text = "6.1332";
-            c.text = "6.1333";
+            texto.text = "Qué mal gusto. Teniendo tanta variedad y pides eso";
+            a.text = "Lo que hay";
+            b.text = "Ya, soy una desgracia";
+            c.text = "Pues a mi me gusta";
         }
     }
 
