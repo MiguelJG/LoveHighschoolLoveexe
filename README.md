@@ -10,3 +10,6 @@
 
 Este juego se basa en *Ligar* con distintos lenguajes de programacion metiendonos en el papel de un programador novato. Mucho humor simple 
 y diversión
+
+### Como jugarlo:
+    ** Descargar la carpeta FinalBuild y ejecutar el programa que ahi se encuentra **

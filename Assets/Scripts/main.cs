@@ -5,6 +5,11 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class main : MonoBehaviour {
+	void Awake(){
+		if (Display.displays.Length > 1)
+			// Activate the display 1 (second monitor connected to the system).
+			Display.displays[1].Activate();
+	}
     public class C
     {
         int love;
@@ -4492,22 +4497,22 @@ public class main : MonoBehaviour {
 			myimagecomponent.sprite = InLove;
 			botonfinal.active = true;
 			string dummy = "";
-			if (cor1 > 4) {
+			if (cor1 > 1) {
 				dummy += " C, ";
 			}
-			if (cor2 > 4) {
+			if (cor2 > 1) {
 				dummy += " PHP, ";
 			}
-			if (cor3 > 4) {
+			if (cor3 > 1) {
 				dummy += " C++, ";
 			}
-			if (cor4 > 4) {
+			if (cor4 > 1) {
 				dummy += " Java, ";
 			}
-			if (cor5 > 4) {
+			if (cor5 > 1) {
 				dummy += " Python, ";
 			}
-			if (cor6 > 4) {
+			if (cor6 > 1) {
 				dummy += " Ensamblador ";
 			}
 			if (dummy == "") {
