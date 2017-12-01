@@ -12,4 +12,4 @@ Este juego se basa en *Ligar* con distintos lenguajes de programacion metiendono
 y diversión
 
 ### Como jugarlo:
-    ** Descargar la carpeta FinalBuild y ejecutar el programa que ahi se encuentra **
+    ** Descargar lo desde : https://mega.nz/#F!18ZTFRAK
