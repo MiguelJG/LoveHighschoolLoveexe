@@ -12,4 +12,4 @@ Este juego se basa en *Ligar* con distintos lenguajes de programacion metiendono
 y diversión
 
 ### Como jugarlo:
-    ** Descargar lo desde : https://mega.nz/#F!18ZTFRAK
+    ** Descargar todo el contenido en: https://mega.nz/#F!18ZTFRAK!259rbTq5GFki-OnEiW7kNQ y ejecutarlo en la misma carpeta (no separar el exe de la carpeta con los datos)
