@@ -13,3 +13,5 @@ y diversión
 
 ### Como jugarlo:
     ** Descargar todo el contenido en: https://mega.nz/#F!18ZTFRAK!259rbTq5GFki-OnEiW7kNQ y ejecutarlo en la misma carpeta (no separar el exe de la carpeta con los datos)
+
+### This gamen was made in mor or less 20 hours in total without knowing anything of unity development previously 
